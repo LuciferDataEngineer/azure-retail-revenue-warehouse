@@ -1,0 +1,3538 @@
+{
+  "query_1": [
+    {
+      "positive_sales_gbp": "10666684.54",
+      "negative_adjustments_gbp": "-918936.61",
+      "net_revenue_gbp": "9747747.93",
+      "unexplained_gbp": "0.00"
+    }
+  ],
+  "query_2": [
+    {
+      "month": "2010-12-01",
+      "observed_business_dates": 20,
+      "accepted_lines": 42481,
+      "positive_sales_gbp": "823746.14",
+      "negative_adjustments_gbp": "-74789.12",
+      "net_revenue_gbp": "748957.02"
+    },
+    {
+      "month": "2011-01-01",
+      "observed_business_dates": 24,
+      "accepted_lines": 35147,
+      "positive_sales_gbp": "691364.56",
+      "negative_adjustments_gbp": "-131364.30",
+      "net_revenue_gbp": "560000.26"
+    },
+    {
+      "month": "2011-02-01",
+      "observed_business_dates": 24,
+      "accepted_lines": 27707,
+      "positive_sales_gbp": "523631.89",
+      "negative_adjustments_gbp": "-25569.24",
+      "net_revenue_gbp": "498062.65"
+    },
+    {
+      "month": "2011-03-01",
+      "observed_business_dates": 27,
+      "accepted_lines": 36748,
+      "positive_sales_gbp": "717639.36",
+      "negative_adjustments_gbp": "-34372.28",
+      "net_revenue_gbp": "683267.08"
+    },
+    {
+      "month": "2011-04-01",
+      "observed_business_dates": 21,
+      "accepted_lines": 29916,
+      "positive_sales_gbp": "537808.62",
+      "negative_adjustments_gbp": "-44601.50",
+      "net_revenue_gbp": "493207.12"
+    },
+    {
+      "month": "2011-05-01",
+      "observed_business_dates": 25,
+      "accepted_lines": 37030,
+      "positive_sales_gbp": "770536.02",
+      "negative_adjustments_gbp": "-47202.51",
+      "net_revenue_gbp": "723333.51"
+    },
+    {
+      "month": "2011-06-01",
+      "observed_business_dates": 26,
+      "accepted_lines": 36874,
+      "positive_sales_gbp": "761739.90",
+      "negative_adjustments_gbp": "-70616.78",
+      "net_revenue_gbp": "691123.12"
+    },
+    {
+      "month": "2011-07-01",
+      "observed_business_dates": 26,
+      "accepted_lines": 39518,
+      "positive_sales_gbp": "719221.19",
+      "negative_adjustments_gbp": "-37921.08",
+      "net_revenue_gbp": "681300.11"
+    },
+    {
+      "month": "2011-08-01",
+      "observed_business_dates": 26,
+      "accepted_lines": 35284,
+      "positive_sales_gbp": "759138.38",
+      "negative_adjustments_gbp": "-76457.87",
+      "net_revenue_gbp": "682680.51"
+    },
+    {
+      "month": "2011-09-01",
+      "observed_business_dates": 26,
+      "accepted_lines": 50226,
+      "positive_sales_gbp": "1058590.17",
+      "negative_adjustments_gbp": "-38902.55",
+      "net_revenue_gbp": "1019687.62"
+    },
+    {
+      "month": "2011-10-01",
+      "observed_business_dates": 26,
+      "accepted_lines": 60742,
+      "positive_sales_gbp": "1154979.30",
+      "negative_adjustments_gbp": "-84274.63",
+      "net_revenue_gbp": "1070704.67"
+    },
+    {
+      "month": "2011-11-01",
+      "observed_business_dates": 26,
+      "accepted_lines": 84711,
+      "positive_sales_gbp": "1509496.33",
+      "negative_adjustments_gbp": "-47740.08",
+      "net_revenue_gbp": "1461756.25"
+    },
+    {
+      "month": "2011-12-01",
+      "observed_business_dates": 8,
+      "accepted_lines": 25525,
+      "positive_sales_gbp": "638792.68",
+      "negative_adjustments_gbp": "-205124.67",
+      "net_revenue_gbp": "433668.01"
+    }
+  ],
+  "query_3": [
+    {
+      "country": "United Kingdom",
+      "accepted_lines": 495478,
+      "net_revenue_gbp": "8187806.36",
+      "signed_adjustments_gbp": "-837415.72"
+    },
+    {
+      "country": "Netherlands",
+      "accepted_lines": 2371,
+      "net_revenue_gbp": "284661.54",
+      "signed_adjustments_gbp": "-784.80"
+    },
+    {
+      "country": "EIRE",
+      "accepted_lines": 8196,
+      "net_revenue_gbp": "263276.82",
+      "signed_adjustments_gbp": "-20177.14"
+    },
+    {
+      "country": "Germany",
+      "accepted_lines": 9495,
+      "net_revenue_gbp": "221698.21",
+      "signed_adjustments_gbp": "-7168.93"
+    },
+    {
+      "country": "France",
+      "accepted_lines": 8557,
+      "net_revenue_gbp": "197403.90",
+      "signed_adjustments_gbp": "-12311.21"
+    },
+    {
+      "country": "Australia",
+      "accepted_lines": 1259,
+      "net_revenue_gbp": "137077.27",
+      "signed_adjustments_gbp": "-1444.04"
+    },
+    {
+      "country": "Switzerland",
+      "accepted_lines": 2002,
+      "net_revenue_gbp": "56385.35",
+      "signed_adjustments_gbp": "-704.55"
+    },
+    {
+      "country": "Spain",
+      "accepted_lines": 2533,
+      "net_revenue_gbp": "54774.58",
+      "signed_adjustments_gbp": "-6802.53"
+    },
+    {
+      "country": "Belgium",
+      "accepted_lines": 2069,
+      "net_revenue_gbp": "40910.96",
+      "signed_adjustments_gbp": "-285.38"
+    },
+    {
+      "country": "Sweden",
+      "accepted_lines": 462,
+      "net_revenue_gbp": "36595.91",
+      "signed_adjustments_gbp": "-1782.42"
+    },
+    {
+      "country": "Japan",
+      "accepted_lines": 358,
+      "net_revenue_gbp": "35340.62",
+      "signed_adjustments_gbp": "-2075.75"
+    },
+    {
+      "country": "Norway",
+      "accepted_lines": 1086,
+      "net_revenue_gbp": "35163.46",
+      "signed_adjustments_gbp": "-1001.98"
+    },
+    {
+      "country": "Portugal",
+      "accepted_lines": 1519,
+      "net_revenue_gbp": "29367.02",
+      "signed_adjustments_gbp": "-4380.08"
+    },
+    {
+      "country": "Finland",
+      "accepted_lines": 695,
+      "net_revenue_gbp": "22326.74",
+      "signed_adjustments_gbp": "-219.34"
+    },
+    {
+      "country": "Channel Islands",
+      "accepted_lines": 758,
+      "net_revenue_gbp": "20086.29",
+      "signed_adjustments_gbp": "-364.15"
+    },
+    {
+      "country": "Denmark",
+      "accepted_lines": 389,
+      "net_revenue_gbp": "18768.14",
+      "signed_adjustments_gbp": "-187.20"
+    },
+    {
+      "country": "Italy",
+      "accepted_lines": 803,
+      "net_revenue_gbp": "16890.51",
+      "signed_adjustments_gbp": "-592.73"
+    },
+    {
+      "country": "Cyprus",
+      "accepted_lines": 622,
+      "net_revenue_gbp": "12946.29",
+      "signed_adjustments_gbp": "-644.09"
+    },
+    {
+      "country": "Austria",
+      "accepted_lines": 401,
+      "net_revenue_gbp": "10154.32",
+      "signed_adjustments_gbp": "-44.36"
+    },
+    {
+      "country": "Hong Kong",
+      "accepted_lines": 288,
+      "net_revenue_gbp": "10117.04",
+      "signed_adjustments_gbp": "-5574.76"
+    },
+    {
+      "country": "Singapore",
+      "accepted_lines": 229,
+      "net_revenue_gbp": "9120.39",
+      "signed_adjustments_gbp": "-12158.90"
+    },
+    {
+      "country": "Israel",
+      "accepted_lines": 297,
+      "net_revenue_gbp": "7907.82",
+      "signed_adjustments_gbp": "-227.44"
+    },
+    {
+      "country": "Poland",
+      "accepted_lines": 341,
+      "net_revenue_gbp": "7213.14",
+      "signed_adjustments_gbp": "-121.51"
+    },
+    {
+      "country": "Unspecified",
+      "accepted_lines": 446,
+      "net_revenue_gbp": "4749.79",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "Greece",
+      "accepted_lines": 146,
+      "net_revenue_gbp": "4710.52",
+      "signed_adjustments_gbp": "-50.00"
+    },
+    {
+      "country": "Iceland",
+      "accepted_lines": 182,
+      "net_revenue_gbp": "4310.00",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "Canada",
+      "accepted_lines": 151,
+      "net_revenue_gbp": "3666.38",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "Malta",
+      "accepted_lines": 127,
+      "net_revenue_gbp": "2505.47",
+      "signed_adjustments_gbp": "-220.12"
+    },
+    {
+      "country": "United Arab Emirates",
+      "accepted_lines": 68,
+      "net_revenue_gbp": "1902.28",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "USA",
+      "accepted_lines": 291,
+      "net_revenue_gbp": "1730.92",
+      "signed_adjustments_gbp": "-1849.47"
+    },
+    {
+      "country": "Lebanon",
+      "accepted_lines": 45,
+      "net_revenue_gbp": "1693.88",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "Lithuania",
+      "accepted_lines": 35,
+      "net_revenue_gbp": "1661.06",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "European Community",
+      "accepted_lines": 61,
+      "net_revenue_gbp": "1291.75",
+      "signed_adjustments_gbp": "-8.50"
+    },
+    {
+      "country": "Brazil",
+      "accepted_lines": 32,
+      "net_revenue_gbp": "1143.60",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "RSA",
+      "accepted_lines": 58,
+      "net_revenue_gbp": "1002.31",
+      "signed_adjustments_gbp": "0.00"
+    },
+    {
+      "country": "Czech Republic",
+      "accepted_lines": 30,
+      "net_revenue_gbp": "707.72",
+      "signed_adjustments_gbp": "-119.02"
+    },
+    {
+      "country": "Bahrain",
+      "accepted_lines": 19,
+      "net_revenue_gbp": "548.40",
+      "signed_adjustments_gbp": "-205.74"
+    },
+    {
+      "country": "Saudi Arabia",
+      "accepted_lines": 10,
+      "net_revenue_gbp": "131.17",
+      "signed_adjustments_gbp": "-14.75"
+    }
+  ],
+  "query_4": [
+    {
+      "business_date": "2010-12-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3108,
+      "accepted_rows": 3108,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2109,
+      "accepted_rows": 2109,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2202,
+      "accepted_rows": 2202,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2725,
+      "accepted_rows": 2725,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3878,
+      "accepted_rows": 3878,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2963,
+      "accepted_rows": 2963,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2647,
+      "accepted_rows": 2647,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2891,
+      "accepted_rows": 2891,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2758,
+      "accepted_rows": 2758,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1451,
+      "accepted_rows": 1451,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2283,
+      "accepted_rows": 2283,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2087,
+      "accepted_rows": 2087,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1349,
+      "accepted_rows": 1349,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1790,
+      "accepted_rows": 1790,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3115,
+      "accepted_rows": 3115,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 522,
+      "accepted_rows": 522,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1763,
+      "accepted_rows": 1763,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1586,
+      "accepted_rows": 1586,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 291,
+      "accepted_rows": 291,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2010-12-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 963,
+      "accepted_rows": 963,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1184,
+      "accepted_rows": 1184,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1743,
+      "accepted_rows": 1743,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1832,
+      "accepted_rows": 1832,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1794,
+      "accepted_rows": 1794,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1117,
+      "accepted_rows": 1117,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1976,
+      "accepted_rows": 1976,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1454,
+      "accepted_rows": 1454,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1809,
+      "accepted_rows": 1809,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1445,
+      "accepted_rows": 1445,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1510,
+      "accepted_rows": 1510,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 646,
+      "accepted_rows": 646,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2557,
+      "accepted_rows": 2557,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1447,
+      "accepted_rows": 1447,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1416,
+      "accepted_rows": 1416,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1502,
+      "accepted_rows": 1502,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1594,
+      "accepted_rows": 1594,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 879,
+      "accepted_rows": 879,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1485,
+      "accepted_rows": 1485,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1654,
+      "accepted_rows": 1654,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1289,
+      "accepted_rows": 1289,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1575,
+      "accepted_rows": 1575,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1008,
+      "accepted_rows": 1008,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-30",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 722,
+      "accepted_rows": 722,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-01-31",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1509,
+      "accepted_rows": 1509,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1574,
+      "accepted_rows": 1574,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1411,
+      "accepted_rows": 1411,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 989,
+      "accepted_rows": 989,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1232,
+      "accepted_rows": 1232,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 279,
+      "accepted_rows": 279,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1261,
+      "accepted_rows": 1261,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1228,
+      "accepted_rows": 1228,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 879,
+      "accepted_rows": 879,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 785,
+      "accepted_rows": 785,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 957,
+      "accepted_rows": 957,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 624,
+      "accepted_rows": 624,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1108,
+      "accepted_rows": 1108,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1335,
+      "accepted_rows": 1335,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1191,
+      "accepted_rows": 1191,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1719,
+      "accepted_rows": 1719,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 854,
+      "accepted_rows": 854,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 864,
+      "accepted_rows": 864,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1425,
+      "accepted_rows": 1425,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1593,
+      "accepted_rows": 1593,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1578,
+      "accepted_rows": 1578,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1294,
+      "accepted_rows": 1294,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 978,
+      "accepted_rows": 978,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 812,
+      "accepted_rows": 812,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-02-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1737,
+      "accepted_rows": 1737,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1361,
+      "accepted_rows": 1361,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 935,
+      "accepted_rows": 935,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1389,
+      "accepted_rows": 1389,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1107,
+      "accepted_rows": 1107,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 844,
+      "accepted_rows": 844,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1971,
+      "accepted_rows": 1971,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1600,
+      "accepted_rows": 1600,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1277,
+      "accepted_rows": 1277,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1131,
+      "accepted_rows": 1131,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 959,
+      "accepted_rows": 959,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 537,
+      "accepted_rows": 537,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1111,
+      "accepted_rows": 1111,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1292,
+      "accepted_rows": 1292,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 874,
+      "accepted_rows": 874,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2074,
+      "accepted_rows": 2074,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1379,
+      "accepted_rows": 1379,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1453,
+      "accepted_rows": 1453,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1068,
+      "accepted_rows": 1068,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2384,
+      "accepted_rows": 2384,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1319,
+      "accepted_rows": 1319,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1577,
+      "accepted_rows": 1577,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1386,
+      "accepted_rows": 1386,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 737,
+      "accepted_rows": 737,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1672,
+      "accepted_rows": 1672,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-29",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1983,
+      "accepted_rows": 1983,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-30",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1590,
+      "accepted_rows": 1590,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-03-31",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1738,
+      "accepted_rows": 1738,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1261,
+      "accepted_rows": 1261,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 731,
+      "accepted_rows": 731,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1705,
+      "accepted_rows": 1705,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1215,
+      "accepted_rows": 1215,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1122,
+      "accepted_rows": 1122,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1527,
+      "accepted_rows": 1527,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1441,
+      "accepted_rows": 1441,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 940,
+      "accepted_rows": 940,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1259,
+      "accepted_rows": 1259,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1152,
+      "accepted_rows": 1152,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1052,
+      "accepted_rows": 1052,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1608,
+      "accepted_rows": 1608,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1483,
+      "accepted_rows": 1483,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 968,
+      "accepted_rows": 968,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3208,
+      "accepted_rows": 3208,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1887,
+      "accepted_rows": 1887,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1025,
+      "accepted_rows": 1025,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1930,
+      "accepted_rows": 1930,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1903,
+      "accepted_rows": 1903,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1307,
+      "accepted_rows": 1307,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-04-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1192,
+      "accepted_rows": 1192,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 452,
+      "accepted_rows": 452,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1449,
+      "accepted_rows": 1449,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1161,
+      "accepted_rows": 1161,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1838,
+      "accepted_rows": 1838,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2051,
+      "accepted_rows": 2051,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1506,
+      "accepted_rows": 1506,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1766,
+      "accepted_rows": 1766,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2586,
+      "accepted_rows": 2586,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1701,
+      "accepted_rows": 1701,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1965,
+      "accepted_rows": 1965,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1425,
+      "accepted_rows": 1425,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 809,
+      "accepted_rows": 809,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1609,
+      "accepted_rows": 1609,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1932,
+      "accepted_rows": 1932,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1366,
+      "accepted_rows": 1366,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1949,
+      "accepted_rows": 1949,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1129,
+      "accepted_rows": 1129,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1564,
+      "accepted_rows": 1564,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1646,
+      "accepted_rows": 1646,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1750,
+      "accepted_rows": 1750,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1322,
+      "accepted_rows": 1322,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 971,
+      "accepted_rows": 971,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1170,
+      "accepted_rows": 1170,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-29",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 632,
+      "accepted_rows": 632,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-05-31",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1281,
+      "accepted_rows": 1281,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1456,
+      "accepted_rows": 1456,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1588,
+      "accepted_rows": 1588,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 858,
+      "accepted_rows": 858,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1561,
+      "accepted_rows": 1561,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1229,
+      "accepted_rows": 1229,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1926,
+      "accepted_rows": 1926,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2327,
+      "accepted_rows": 2327,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1850,
+      "accepted_rows": 1850,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1067,
+      "accepted_rows": 1067,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1075,
+      "accepted_rows": 1075,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1472,
+      "accepted_rows": 1472,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1587,
+      "accepted_rows": 1587,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1718,
+      "accepted_rows": 1718,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1534,
+      "accepted_rows": 1534,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 961,
+      "accepted_rows": 961,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1167,
+      "accepted_rows": 1167,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2020,
+      "accepted_rows": 2020,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1538,
+      "accepted_rows": 1538,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1017,
+      "accepted_rows": 1017,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1973,
+      "accepted_rows": 1973,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1039,
+      "accepted_rows": 1039,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 708,
+      "accepted_rows": 708,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1182,
+      "accepted_rows": 1182,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1043,
+      "accepted_rows": 1043,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-29",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1358,
+      "accepted_rows": 1358,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-06-30",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1620,
+      "accepted_rows": 1620,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1027,
+      "accepted_rows": 1027,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 602,
+      "accepted_rows": 602,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2200,
+      "accepted_rows": 2200,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2202,
+      "accepted_rows": 2202,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1816,
+      "accepted_rows": 1816,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1940,
+      "accepted_rows": 1940,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1630,
+      "accepted_rows": 1630,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 820,
+      "accepted_rows": 820,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1515,
+      "accepted_rows": 1515,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1667,
+      "accepted_rows": 1667,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1618,
+      "accepted_rows": 1618,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1734,
+      "accepted_rows": 1734,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1136,
+      "accepted_rows": 1136,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1248,
+      "accepted_rows": 1248,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2234,
+      "accepted_rows": 2234,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1667,
+      "accepted_rows": 1667,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2015,
+      "accepted_rows": 2015,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1570,
+      "accepted_rows": 1570,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1301,
+      "accepted_rows": 1301,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1125,
+      "accepted_rows": 1125,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1946,
+      "accepted_rows": 1946,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1279,
+      "accepted_rows": 1279,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1259,
+      "accepted_rows": 1259,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1565,
+      "accepted_rows": 1565,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-29",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1131,
+      "accepted_rows": 1131,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-07-31",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1271,
+      "accepted_rows": 1271,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1200,
+      "accepted_rows": 1200,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1369,
+      "accepted_rows": 1369,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1560,
+      "accepted_rows": 1560,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1839,
+      "accepted_rows": 1839,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1455,
+      "accepted_rows": 1455,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 541,
+      "accepted_rows": 541,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1490,
+      "accepted_rows": 1490,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1119,
+      "accepted_rows": 1119,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1376,
+      "accepted_rows": 1376,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1984,
+      "accepted_rows": 1984,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1122,
+      "accepted_rows": 1122,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 557,
+      "accepted_rows": 557,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 926,
+      "accepted_rows": 926,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1035,
+      "accepted_rows": 1035,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1666,
+      "accepted_rows": 1666,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1539,
+      "accepted_rows": 1539,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 819,
+      "accepted_rows": 819,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1070,
+      "accepted_rows": 1070,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1272,
+      "accepted_rows": 1272,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1458,
+      "accepted_rows": 1458,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1876,
+      "accepted_rows": 1876,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1342,
+      "accepted_rows": 1342,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 929,
+      "accepted_rows": 929,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1200,
+      "accepted_rows": 1200,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-30",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3235,
+      "accepted_rows": 3235,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-08-31",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1305,
+      "accepted_rows": 1305,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1405,
+      "accepted_rows": 1405,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2376,
+      "accepted_rows": 2376,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1343,
+      "accepted_rows": 1343,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1587,
+      "accepted_rows": 1587,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1140,
+      "accepted_rows": 1140,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2112,
+      "accepted_rows": 2112,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1779,
+      "accepted_rows": 1779,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1607,
+      "accepted_rows": 1607,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2032,
+      "accepted_rows": 2032,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1702,
+      "accepted_rows": 1702,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2438,
+      "accepted_rows": 2438,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1376,
+      "accepted_rows": 1376,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2197,
+      "accepted_rows": 2197,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1475,
+      "accepted_rows": 1475,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1274,
+      "accepted_rows": 1274,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1436,
+      "accepted_rows": 1436,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1718,
+      "accepted_rows": 1718,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3129,
+      "accepted_rows": 3129,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2748,
+      "accepted_rows": 2748,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2642,
+      "accepted_rows": 2642,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1987,
+      "accepted_rows": 1987,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1554,
+      "accepted_rows": 1554,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1897,
+      "accepted_rows": 1897,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2877,
+      "accepted_rows": 2877,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-29",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2508,
+      "accepted_rows": 2508,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-09-30",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1887,
+      "accepted_rows": 1887,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1429,
+      "accepted_rows": 1429,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2296,
+      "accepted_rows": 2296,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2797,
+      "accepted_rows": 2797,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2447,
+      "accepted_rows": 2447,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3189,
+      "accepted_rows": 3189,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2426,
+      "accepted_rows": 2426,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1292,
+      "accepted_rows": 1292,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3232,
+      "accepted_rows": 3232,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2467,
+      "accepted_rows": 2467,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-12",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2193,
+      "accepted_rows": 2193,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2358,
+      "accepted_rows": 2358,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1810,
+      "accepted_rows": 1810,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1254,
+      "accepted_rows": 1254,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2944,
+      "accepted_rows": 2944,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2908,
+      "accepted_rows": 2908,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-19",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2318,
+      "accepted_rows": 2318,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2350,
+      "accepted_rows": 2350,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1404,
+      "accepted_rows": 1404,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1728,
+      "accepted_rows": 1728,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2976,
+      "accepted_rows": 2976,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2492,
+      "accepted_rows": 2492,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-26",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1930,
+      "accepted_rows": 1930,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2540,
+      "accepted_rows": 2540,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1641,
+      "accepted_rows": 1641,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-30",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2907,
+      "accepted_rows": 2907,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-10-31",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3414,
+      "accepted_rows": 3414,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1786,
+      "accepted_rows": 1786,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2632,
+      "accepted_rows": 2632,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-03",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2419,
+      "accepted_rows": 2419,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3011,
+      "accepted_rows": 3011,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3437,
+      "accepted_rows": 3437,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2099,
+      "accepted_rows": 2099,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 4070,
+      "accepted_rows": 4070,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2716,
+      "accepted_rows": 2716,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-10",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3275,
+      "accepted_rows": 3275,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-11",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 4089,
+      "accepted_rows": 4089,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-13",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3018,
+      "accepted_rows": 3018,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-14",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3597,
+      "accepted_rows": 3597,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-15",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3445,
+      "accepted_rows": 3445,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-16",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 4195,
+      "accepted_rows": 4195,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-17",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3621,
+      "accepted_rows": 3621,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-18",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2920,
+      "accepted_rows": 2920,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-20",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3334,
+      "accepted_rows": 3334,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-21",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2930,
+      "accepted_rows": 2930,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-22",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3967,
+      "accepted_rows": 3967,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-23",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3619,
+      "accepted_rows": 3619,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-24",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3766,
+      "accepted_rows": 3766,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-25",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3125,
+      "accepted_rows": 3125,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-27",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2543,
+      "accepted_rows": 2543,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-28",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3330,
+      "accepted_rows": 3330,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-29",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 4313,
+      "accepted_rows": 4313,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-11-30",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3454,
+      "accepted_rows": 3454,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-01",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2901,
+      "accepted_rows": 2901,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-02",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2880,
+      "accepted_rows": 2880,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-04",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2038,
+      "accepted_rows": 2038,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-05",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 5331,
+      "accepted_rows": 5331,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-06",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 3365,
+      "accepted_rows": 3365,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-07",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 2438,
+      "accepted_rows": 2438,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-08",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 4940,
+      "accepted_rows": 4940,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    },
+    {
+      "business_date": "2011-12-09",
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "raw_rows": 1632,
+      "accepted_rows": 1632,
+      "quarantined_rows": 0,
+      "conserves_rows": true,
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "source_captured_utc": "2026-11-03T22:09:42.643121"
+    }
+  ],
+  "query_5": [
+    {
+      "stock_code": "DOT",
+      "observed_description_versions": 2,
+      "signed_units": 1707,
+      "signed_revenue_gbp": "206245.48"
+    },
+    {
+      "stock_code": "22423",
+      "observed_description_versions": 3,
+      "signed_units": 12980,
+      "signed_revenue_gbp": "164762.19"
+    },
+    {
+      "stock_code": "47566",
+      "observed_description_versions": 1,
+      "signed_units": 18022,
+      "signed_revenue_gbp": "98302.98"
+    },
+    {
+      "stock_code": "85123A",
+      "observed_description_versions": 4,
+      "signed_units": 38830,
+      "signed_revenue_gbp": "97894.50"
+    },
+    {
+      "stock_code": "85099B",
+      "observed_description_versions": 1,
+      "signed_units": 47363,
+      "signed_revenue_gbp": "92356.03"
+    },
+    {
+      "stock_code": "23084",
+      "observed_description_versions": 8,
+      "signed_units": 30646,
+      "signed_revenue_gbp": "66756.59"
+    },
+    {
+      "stock_code": "POST",
+      "observed_description_versions": 2,
+      "signed_units": 6353,
+      "signed_revenue_gbp": "66230.64"
+    },
+    {
+      "stock_code": "22086",
+      "observed_description_versions": 1,
+      "signed_units": 18902,
+      "signed_revenue_gbp": "63791.94"
+    },
+    {
+      "stock_code": "84879",
+      "observed_description_versions": 2,
+      "signed_units": 36221,
+      "signed_revenue_gbp": "58959.73"
+    },
+    {
+      "stock_code": "79321",
+      "observed_description_versions": 2,
+      "signed_units": 10343,
+      "signed_revenue_gbp": "53768.06"
+    },
+    {
+      "stock_code": "22502",
+      "observed_description_versions": 4,
+      "signed_units": 1873,
+      "signed_revenue_gbp": "51041.37"
+    },
+    {
+      "stock_code": "22197",
+      "observed_description_versions": 2,
+      "signed_units": 56450,
+      "signed_revenue_gbp": "50987.47"
+    },
+    {
+      "stock_code": "23298",
+      "observed_description_versions": 2,
+      "signed_units": 8534,
+      "signed_revenue_gbp": "42700.02"
+    },
+    {
+      "stock_code": "22386",
+      "observed_description_versions": 1,
+      "signed_units": 21009,
+      "signed_revenue_gbp": "41619.66"
+    },
+    {
+      "stock_code": "23203",
+      "observed_description_versions": 4,
+      "signed_units": 20013,
+      "signed_revenue_gbp": "40991.38"
+    },
+    {
+      "stock_code": "21137",
+      "observed_description_versions": 2,
+      "signed_units": 11616,
+      "signed_revenue_gbp": "40596.96"
+    },
+    {
+      "stock_code": "22720",
+      "observed_description_versions": 2,
+      "signed_units": 7286,
+      "signed_revenue_gbp": "37413.44"
+    },
+    {
+      "stock_code": "23284",
+      "observed_description_versions": 2,
+      "signed_units": 5264,
+      "signed_revenue_gbp": "36565.39"
+    },
+    {
+      "stock_code": "22960",
+      "observed_description_versions": 1,
+      "signed_units": 8470,
+      "signed_revenue_gbp": "36116.09"
+    },
+    {
+      "stock_code": "82484",
+      "observed_description_versions": 1,
+      "signed_units": 5996,
+      "signed_revenue_gbp": "35859.27"
+    }
+  ],
+  "query_6": [
+    {
+      "unknown_customer_lines": 135080,
+      "zero_value_lines": 2519,
+      "candidate_duplicate_lines": 5268,
+      "cancellation_lines": 9288,
+      "cancellation_sign_mismatch_lines": 1336,
+      "negative_price_lines": 2
+    }
+  ],
+  "query_7": [],
+  "query_8": [
+    {
+      "status": "committed",
+      "attempts": 616,
+      "replayed_attempts": 311
+    }
+  ]
+}

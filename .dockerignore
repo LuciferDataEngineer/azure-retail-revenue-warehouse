@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!pyproject.toml
+!src/
+!src/**
+!azure/
+!azure/**
+**/__pycache__/
+**/*.pyc

@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-11-04T07:27:43.895458+00:00",
+  "generation": "4b74fbc776c24bab9a8b8cb27c8067ab",
+  "contract_version": "retail-invoice-v1",
+  "execution": "local DuckDB; Azure Synapse has not been deployed or tested",
+  "totals": {
+    "raw_rows": 541909,
+    "quarantined_rows": 0,
+    "accepted_rows": 541909,
+    "positive_sales": "10666684.54",
+    "negative_adjustments": "-918936.61",
+    "net_revenue": "9747747.93",
+    "zero_value_lines": 2519,
+    "unknown_customer_lines": 135080,
+    "candidate_duplicate_lines": 5268,
+    "cancellation_lines": 9288,
+    "cancellation_sign_mismatch_lines": 1336,
+    "negative_price_lines": 2
+  },
+  "current_days": 305,
+  "sources": [
+    {
+      "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+      "captured_at": "2026-11-03 22:09:42.643121",
+      "source_bytes": 23715344,
+      "worksheet": "Online Retail",
+      "raw_rows": 541909
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2010-12-01",
+      "accepted_rows": 42481,
+      "positive_sales": "823746.14",
+      "negative_adjustments": "-74789.12",
+      "net_revenue": "748957.02"
+    },
+    {
+      "month": "2011-01-01",
+      "accepted_rows": 35147,
+      "positive_sales": "691364.56",
+      "negative_adjustments": "-131364.30",
+      "net_revenue": "560000.26"
+    },
+    {
+      "month": "2011-02-01",
+      "accepted_rows": 27707,
+      "positive_sales": "523631.89",
+      "negative_adjustments": "-25569.24",
+      "net_revenue": "498062.65"
+    },
+    {
+      "month": "2011-03-01",
+      "accepted_rows": 36748,
+      "positive_sales": "717639.36",
+      "negative_adjustments": "-34372.28",
+      "net_revenue": "683267.08"
+    },
+    {
+      "month": "2011-04-01",
+      "accepted_rows": 29916,
+      "positive_sales": "537808.62",
+      "negative_adjustments": "-44601.50",
+      "net_revenue": "493207.12"
+    },
+    {
+      "month": "2011-05-01",
+      "accepted_rows": 37030,
+      "positive_sales": "770536.02",
+      "negative_adjustments": "-47202.51",
+      "net_revenue": "723333.51"
+    },
+    {
+      "month": "2011-06-01",
+      "accepted_rows": 36874,
+      "positive_sales": "761739.90",
+      "negative_adjustments": "-70616.78",
+      "net_revenue": "691123.12"
+    },
+    {
+      "month": "2011-07-01",
+      "accepted_rows": 39518,
+      "positive_sales": "719221.19",
+      "negative_adjustments": "-37921.08",
+      "net_revenue": "681300.11"
+    },
+    {
+      "month": "2011-08-01",
+      "accepted_rows": 35284,
+      "positive_sales": "759138.38",
+      "negative_adjustments": "-76457.87",
+      "net_revenue": "682680.51"
+    },
+    {
+      "month": "2011-09-01",
+      "accepted_rows": 50226,
+      "positive_sales": "1058590.17",
+      "negative_adjustments": "-38902.55",
+      "net_revenue": "1019687.62"
+    },
+    {
+      "month": "2011-10-01",
+      "accepted_rows": 60742,
+      "positive_sales": "1154979.30",
+      "negative_adjustments": "-84274.63",
+      "net_revenue": "1070704.67"
+    },
+    {
+      "month": "2011-11-01",
+      "accepted_rows": 84711,
+      "positive_sales": "1509496.33",
+      "negative_adjustments": "-47740.08",
+      "net_revenue": "1461756.25"
+    },
+    {
+      "month": "2011-12-01",
+      "accepted_rows": 25525,
+      "positive_sales": "638792.68",
+      "negative_adjustments": "-205124.67",
+      "net_revenue": "433668.01"
+    }
+  ],
+  "quality": []
+}

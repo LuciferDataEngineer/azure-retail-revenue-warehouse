@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-retail-revenue-warehouse"
+version = "0.1.0"
+description = "Daily invoice ELT with exact signed revenue and an unvalidated Azure Synapse deployment target"
+requires-python = ">=3.11"
+dependencies = ["duckdb==2.0.0", "pyarrow==26.0.0", "openpyxl==3.1.5"]
+license = "MIT"
+
+[project.scripts]
+retail-warehouse = "retail_warehouse.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

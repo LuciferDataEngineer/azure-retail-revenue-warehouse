@@ -1,0 +1,69 @@
+trigger: none
+pr: none
+parameters:
+- name: deployLab
+  type: boolean
+  default: false
+- name: azureServiceConnection
+  type: string
+  default: UNCONFIGURED
+- name: resourceGroup
+  type: string
+  default: UNCONFIGURED
+- name: budgetApprovalReference
+  type: string
+  default: UNAPPROVED
+- name: entraAdminObjectId
+  type: string
+  default: UNCONFIGURED
+- name: entraAdminName
+  type: string
+  default: UNCONFIGURED
+stages:
+- stage: Validate
+  jobs:
+  - job: Offline
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - checkout: self
+    - script: |
+        set -eu
+        python3 -m pip install .
+        python3 -m unittest discover -s tests -v
+        python3 -m unittest discover -s azure -p 'test_*.py' -v
+        python3 -m compileall -q src azure scripts
+        az bicep install --version v0.46.1
+        python3 azure/validate_infra.py
+      displayName: Local tests and Bicep compilation; no deployment
+- ${{ if eq(parameters.deployLab, true) }}:
+  - stage: DeployApprovedFoundation
+    dependsOn: Validate
+    jobs:
+    - deployment: Foundation
+      environment: retail-lab-approved
+      pool:
+        vmImage: ubuntu-latest
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+            - checkout: self
+            - task: AzureCLI@2
+              inputs:
+                azureSubscription: ${{ parameters.azureServiceConnection }}
+                scriptType: bash
+                scriptLocation: inlineScript
+                inlineScript: |
+                  set -eu
+                  test "$RETAIL_APPROVAL" != UNAPPROVED
+                  test -n "$RETAIL_APPROVAL"
+                  test "$RETAIL_RG" != UNCONFIGURED
+                  test "$RETAIL_ADMIN_ID" != UNCONFIGURED
+                  test "$RETAIL_ADMIN_NAME" != UNCONFIGURED
+                  az deployment group create --resource-group "$RETAIL_RG" --template-file infra/main.bicep --parameters deployLab=true environment=dev entraAdminObjectId="$RETAIL_ADMIN_ID" entraAdminName="$RETAIL_ADMIN_NAME" deployDedicatedPool=false deployProducer=false
+              env:
+                RETAIL_APPROVAL: ${{ parameters.budgetApprovalReference }}
+                RETAIL_RG: ${{ parameters.resourceGroup }}
+                RETAIL_ADMIN_ID: ${{ parameters.entraAdminObjectId }}
+                RETAIL_ADMIN_NAME: ${{ parameters.entraAdminName }}

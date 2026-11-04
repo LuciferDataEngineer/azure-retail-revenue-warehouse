@@ -1,0 +1,211 @@
+{
+  "description": "One serial publisher, immutable ready manifest, complete staging, one date transaction. SQL/runtime unvalidated.",
+  "concurrency": 1,
+  "parameters": {
+    "businessDate": {
+      "type": "String",
+      "defaultValue": "2010-12-01"
+    },
+    "sourceSha256": {
+      "type": "String",
+      "defaultValue": "UNCONFIGURED"
+    },
+    "allowRevision": {
+      "type": "Bool",
+      "defaultValue": false
+    }
+  },
+  "activities": [
+    {
+      "name": "ReadReadyManifest",
+      "type": "Lookup",
+      "policy": {
+        "timeout": "0.00:30:00",
+        "retry": 1,
+        "retryIntervalInSeconds": 30
+      },
+      "typeProperties": {
+        "source": {
+          "type": "JsonSource",
+          "storeSettings": {
+            "type": "AzureBlobFSReadSettings",
+            "recursive": false
+          }
+        },
+        "dataset": {
+          "type": "DatasetReference",
+          "referenceName": "ReadyManifest",
+          "parameters": {
+            "businessDate": {
+              "type": "Expression",
+              "value": "@pipeline().parameters.businessDate"
+            },
+            "sourceSha256": {
+              "type": "Expression",
+              "value": "@pipeline().parameters.sourceSha256"
+            }
+          }
+        },
+        "firstRowOnly": true
+      }
+    },
+    {
+      "name": "ValidateReadyIdentity",
+      "type": "IfCondition",
+      "dependsOn": [
+        {
+          "activity": "ReadReadyManifest",
+          "dependencyConditions": [
+            "Succeeded"
+          ]
+        }
+      ],
+      "typeProperties": {
+        "expression": {
+          "type": "Expression",
+          "value": "@and(equals(activity('ReadReadyManifest').output.firstRow.contract_version,'retail-synapse-v1'),and(equals(activity('ReadReadyManifest').output.firstRow.source_sha256,pipeline().parameters.sourceSha256),equals(activity('ReadReadyManifest').output.firstRow.business_date,pipeline().parameters.businessDate)))"
+        },
+        "ifTrueActivities": [
+          {
+            "name": "StageCompleteDate",
+            "type": "Copy",
+            "policy": {
+              "timeout": "0.00:30:00",
+              "retry": 1,
+              "retryIntervalInSeconds": 30
+            },
+            "inputs": [
+              {
+                "type": "DatasetReference",
+                "referenceName": "PreparedDailyParquet",
+                "parameters": {
+                  "businessDate": {
+                    "type": "Expression",
+                    "value": "@pipeline().parameters.businessDate"
+                  },
+                  "sourceSha256": {
+                    "type": "Expression",
+                    "value": "@pipeline().parameters.sourceSha256"
+                  }
+                }
+              }
+            ],
+            "outputs": [
+              {
+                "type": "DatasetReference",
+                "referenceName": "StageInvoiceLines"
+              }
+            ],
+            "typeProperties": {
+              "source": {
+                "type": "ParquetSource",
+                "storeSettings": {
+                  "type": "AzureBlobFSReadSettings",
+                  "recursive": false
+                }
+              },
+              "sink": {
+                "type": "SqlDWSink",
+                "allowCopyCommand": true,
+                "copyCommandSettings": {
+                  "additionalOptions": {
+                    "MAXERRORS": "0"
+                  }
+                },
+                "preCopyScript": "DELETE FROM retail.stage_lines;",
+                "disableMetricsCollection": true
+              },
+              "enableStaging": false,
+              "enableSkipIncompatibleRow": false
+            }
+          },
+          {
+            "name": "CommitDate",
+            "type": "SqlServerStoredProcedure",
+            "dependsOn": [
+              {
+                "activity": "StageCompleteDate",
+                "dependencyConditions": [
+                  "Succeeded"
+                ]
+              }
+            ],
+            "policy": {
+              "timeout": "0.00:30:00",
+              "retry": 1,
+              "retryIntervalInSeconds": 30
+            },
+            "linkedServiceName": {
+              "type": "LinkedServiceReference",
+              "referenceName": "RetailDedicatedPoolManagedIdentity"
+            },
+            "typeProperties": {
+              "storedProcedureName": "retail.publish_day",
+              "storedProcedureParameters": {
+                "business_date": {
+                  "type": "Date",
+                  "value": {
+                    "type": "Expression",
+                    "value": "@pipeline().parameters.businessDate"
+                  }
+                },
+                "source_sha256": {
+                  "type": "String",
+                  "value": {
+                    "type": "Expression",
+                    "value": "@pipeline().parameters.sourceSha256"
+                  }
+                },
+                "batch_sha256": {
+                  "type": "String",
+                  "value": {
+                    "type": "Expression",
+                    "value": "@activity('ReadReadyManifest').output.firstRow.batch_sha256"
+                  }
+                },
+                "expected_rows": {
+                  "type": "Int64",
+                  "value": {
+                    "type": "Expression",
+                    "value": "@activity('ReadReadyManifest').output.firstRow.rows"
+                  }
+                },
+                "expected_accepted": {
+                  "type": "Int64",
+                  "value": {
+                    "type": "Expression",
+                    "value": "@activity('ReadReadyManifest').output.firstRow.accepted_rows"
+                  }
+                },
+                "expected_net": {
+                  "type": "Decimal",
+                  "value": {
+                    "type": "Expression",
+                    "value": "@activity('ReadReadyManifest').output.firstRow.net_sales"
+                  }
+                },
+                "allow_revision": {
+                  "type": "Boolean",
+                  "value": {
+                    "type": "Expression",
+                    "value": "@pipeline().parameters.allowRevision"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "ifFalseActivities": [
+          {
+            "name": "RejectManifest",
+            "type": "Fail",
+            "typeProperties": {
+              "errorCode": "MANIFEST_IDENTITY",
+              "message": "Ready manifest contract, date or source does not match requested batch"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

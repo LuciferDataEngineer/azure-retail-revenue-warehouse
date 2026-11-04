@@ -1,0 +1,1856 @@
+{
+  "method": "Independent source workbook scan; openpyxl + Python Decimal",
+  "workbook_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "counts": {
+    "raw_rows": 541909,
+    "missing_customer_rows": 135080,
+    "missing_description_rows": 1454,
+    "cancellation_invoice_rows": 9288,
+    "negative_quantity_rows": 10624,
+    "negative_price_rows": 2,
+    "zero_price_rows": 2515,
+    "positive_amount_rows": 530100,
+    "negative_amount_rows": 9290,
+    "zero_amount_rows": 2519
+  },
+  "amounts": {
+    "positive_gbp": "10666684.54",
+    "negative_gbp": "-918936.61",
+    "net_gbp": "9747747.93"
+  },
+  "observed_business_dates": 305,
+  "first_date": "2010-12-01",
+  "last_date": "2011-12-09",
+  "daily": {
+    "2010-12-01": {
+      "rows": 3108,
+      "positive_gbp": "58960.79",
+      "negative_gbp": "-325.23",
+      "net_gbp": "58635.56"
+    },
+    "2010-12-02": {
+      "rows": 2109,
+      "positive_gbp": "47748.38",
+      "negative_gbp": "-1541.10",
+      "net_gbp": "46207.28"
+    },
+    "2010-12-03": {
+      "rows": 2202,
+      "positive_gbp": "46943.71",
+      "negative_gbp": "-1323.25",
+      "net_gbp": "45620.46"
+    },
+    "2010-12-05": {
+      "rows": 2725,
+      "positive_gbp": "31774.95",
+      "negative_gbp": "-391.00",
+      "net_gbp": "31383.95"
+    },
+    "2010-12-06": {
+      "rows": 3878,
+      "positive_gbp": "54830.46",
+      "negative_gbp": "-970.28",
+      "net_gbp": "53860.18"
+    },
+    "2010-12-07": {
+      "rows": 2963,
+      "positive_gbp": "99618.20",
+      "negative_gbp": "-54559.15",
+      "net_gbp": "45059.05"
+    },
+    "2010-12-08": {
+      "rows": 2647,
+      "positive_gbp": "45389.98",
+      "negative_gbp": "-1200.14",
+      "net_gbp": "44189.84"
+    },
+    "2010-12-09": {
+      "rows": 2891,
+      "positive_gbp": "53586.18",
+      "negative_gbp": "-1054.05",
+      "net_gbp": "52532.13"
+    },
+    "2010-12-10": {
+      "rows": 2758,
+      "positive_gbp": "59182.92",
+      "negative_gbp": "-1778.01",
+      "net_gbp": "57404.91"
+    },
+    "2010-12-12": {
+      "rows": 1451,
+      "positive_gbp": "17329.07",
+      "negative_gbp": "-88.15",
+      "net_gbp": "17240.92"
+    },
+    "2010-12-13": {
+      "rows": 2283,
+      "positive_gbp": "38006.71",
+      "negative_gbp": "-2627.37",
+      "net_gbp": "35379.34"
+    },
+    "2010-12-14": {
+      "rows": 2087,
+      "positive_gbp": "45254.73",
+      "negative_gbp": "-2411.44",
+      "net_gbp": "42843.29"
+    },
+    "2010-12-15": {
+      "rows": 1349,
+      "positive_gbp": "30444.62",
+      "negative_gbp": "-1000.93",
+      "net_gbp": "29443.69"
+    },
+    "2010-12-16": {
+      "rows": 1790,
+      "positive_gbp": "49352.90",
+      "negative_gbp": "-1018.55",
+      "net_gbp": "48334.35"
+    },
+    "2010-12-17": {
+      "rows": 3115,
+      "positive_gbp": "45418.33",
+      "negative_gbp": "-1884.14",
+      "net_gbp": "43534.19"
+    },
+    "2010-12-19": {
+      "rows": 522,
+      "positive_gbp": "7534.91",
+      "negative_gbp": "-17.60",
+      "net_gbp": "7517.31"
+    },
+    "2010-12-20": {
+      "rows": 1763,
+      "positive_gbp": "26789.13",
+      "negative_gbp": "-2047.38",
+      "net_gbp": "24741.75"
+    },
+    "2010-12-21": {
+      "rows": 1586,
+      "positive_gbp": "47304.09",
+      "negative_gbp": "-206.15",
+      "net_gbp": "47097.94"
+    },
+    "2010-12-22": {
+      "rows": 291,
+      "positive_gbp": "6199.97",
+      "negative_gbp": "-65.40",
+      "net_gbp": "6134.57"
+    },
+    "2010-12-23": {
+      "rows": 963,
+      "positive_gbp": "12076.11",
+      "negative_gbp": "-279.80",
+      "net_gbp": "11796.31"
+    },
+    "2011-01-04": {
+      "rows": 1184,
+      "positive_gbp": "16026.08",
+      "negative_gbp": "-1075.60",
+      "net_gbp": "14950.48"
+    },
+    "2011-01-05": {
+      "rows": 1743,
+      "positive_gbp": "32634.47",
+      "negative_gbp": "-34200.70",
+      "net_gbp": "-1566.23"
+    },
+    "2011-01-06": {
+      "rows": 1832,
+      "positive_gbp": "40382.85",
+      "negative_gbp": "-2990.11",
+      "net_gbp": "37392.74"
+    },
+    "2011-01-07": {
+      "rows": 1794,
+      "positive_gbp": "28836.59",
+      "negative_gbp": "-1603.45",
+      "net_gbp": "27233.14"
+    },
+    "2011-01-09": {
+      "rows": 1117,
+      "positive_gbp": "15778.20",
+      "negative_gbp": "-67.40",
+      "net_gbp": "15710.80"
+    },
+    "2011-01-10": {
+      "rows": 1976,
+      "positive_gbp": "24569.07",
+      "negative_gbp": "-377.43",
+      "net_gbp": "24191.64"
+    },
+    "2011-01-11": {
+      "rows": 1454,
+      "positive_gbp": "68655.59",
+      "negative_gbp": "-838.46",
+      "net_gbp": "67817.13"
+    },
+    "2011-01-12": {
+      "rows": 1809,
+      "positive_gbp": "24693.78",
+      "negative_gbp": "-735.00",
+      "net_gbp": "23958.78"
+    },
+    "2011-01-13": {
+      "rows": 1445,
+      "positive_gbp": "20624.64",
+      "negative_gbp": "-91.10",
+      "net_gbp": "20533.54"
+    },
+    "2011-01-14": {
+      "rows": 1510,
+      "positive_gbp": "47576.90",
+      "negative_gbp": "-199.64",
+      "net_gbp": "47377.26"
+    },
+    "2011-01-16": {
+      "rows": 646,
+      "positive_gbp": "7242.06",
+      "negative_gbp": "-125.45",
+      "net_gbp": "7116.61"
+    },
+    "2011-01-17": {
+      "rows": 2557,
+      "positive_gbp": "29333.02",
+      "negative_gbp": "-77.02",
+      "net_gbp": "29256.00"
+    },
+    "2011-01-18": {
+      "rows": 1447,
+      "positive_gbp": "95978.05",
+      "negative_gbp": "-77297.25",
+      "net_gbp": "18680.80"
+    },
+    "2011-01-19": {
+      "rows": 1416,
+      "positive_gbp": "25934.57",
+      "negative_gbp": "-348.76",
+      "net_gbp": "25585.81"
+    },
+    "2011-01-20": {
+      "rows": 1502,
+      "positive_gbp": "21246.99",
+      "negative_gbp": "-3251.08",
+      "net_gbp": "17995.91"
+    },
+    "2011-01-21": {
+      "rows": 1594,
+      "positive_gbp": "32640.30",
+      "negative_gbp": "-661.86",
+      "net_gbp": "31978.44"
+    },
+    "2011-01-23": {
+      "rows": 879,
+      "positive_gbp": "10400.25",
+      "negative_gbp": "-114.30",
+      "net_gbp": "10285.95"
+    },
+    "2011-01-24": {
+      "rows": 1485,
+      "positive_gbp": "25733.79",
+      "negative_gbp": "-178.17",
+      "net_gbp": "25555.62"
+    },
+    "2011-01-25": {
+      "rows": 1654,
+      "positive_gbp": "29077.47",
+      "negative_gbp": "-1105.95",
+      "net_gbp": "27971.52"
+    },
+    "2011-01-26": {
+      "rows": 1289,
+      "positive_gbp": "19922.29",
+      "negative_gbp": "-428.97",
+      "net_gbp": "19493.32"
+    },
+    "2011-01-27": {
+      "rows": 1575,
+      "positive_gbp": "23730.84",
+      "negative_gbp": "-2638.70",
+      "net_gbp": "21092.14"
+    },
+    "2011-01-28": {
+      "rows": 1008,
+      "positive_gbp": "20090.65",
+      "negative_gbp": "-1522.88",
+      "net_gbp": "18567.77"
+    },
+    "2011-01-30": {
+      "rows": 722,
+      "positive_gbp": "6615.75",
+      "negative_gbp": "-159.31",
+      "net_gbp": "6456.44"
+    },
+    "2011-01-31": {
+      "rows": 1509,
+      "positive_gbp": "23640.36",
+      "negative_gbp": "-1275.71",
+      "net_gbp": "22364.65"
+    },
+    "2011-02-01": {
+      "rows": 1574,
+      "positive_gbp": "29034.99",
+      "negative_gbp": "-601.77",
+      "net_gbp": "28433.22"
+    },
+    "2011-02-02": {
+      "rows": 1411,
+      "positive_gbp": "21216.20",
+      "negative_gbp": "-167.75",
+      "net_gbp": "21048.45"
+    },
+    "2011-02-03": {
+      "rows": 989,
+      "positive_gbp": "23479.83",
+      "negative_gbp": "-135.25",
+      "net_gbp": "23344.58"
+    },
+    "2011-02-04": {
+      "rows": 1232,
+      "positive_gbp": "25162.19",
+      "negative_gbp": "-168.02",
+      "net_gbp": "24994.17"
+    },
+    "2011-02-06": {
+      "rows": 279,
+      "positive_gbp": "3457.11",
+      "negative_gbp": "0",
+      "net_gbp": "3457.11"
+    },
+    "2011-02-07": {
+      "rows": 1261,
+      "positive_gbp": "25955.01",
+      "negative_gbp": "-429.02",
+      "net_gbp": "25525.99"
+    },
+    "2011-02-08": {
+      "rows": 1228,
+      "positive_gbp": "20949.92",
+      "negative_gbp": "-221.78",
+      "net_gbp": "20728.14"
+    },
+    "2011-02-09": {
+      "rows": 879,
+      "positive_gbp": "16692.58",
+      "negative_gbp": "0.00",
+      "net_gbp": "16692.58"
+    },
+    "2011-02-10": {
+      "rows": 785,
+      "positive_gbp": "14896.46",
+      "negative_gbp": "-1468.92",
+      "net_gbp": "13427.54"
+    },
+    "2011-02-11": {
+      "rows": 957,
+      "positive_gbp": "22873.10",
+      "negative_gbp": "-2485.82",
+      "net_gbp": "20387.28"
+    },
+    "2011-02-13": {
+      "rows": 624,
+      "positive_gbp": "5713.63",
+      "negative_gbp": "-178.23",
+      "net_gbp": "5535.40"
+    },
+    "2011-02-14": {
+      "rows": 1108,
+      "positive_gbp": "26703.51",
+      "negative_gbp": "-481.48",
+      "net_gbp": "26222.03"
+    },
+    "2011-02-15": {
+      "rows": 1335,
+      "positive_gbp": "39875.74",
+      "negative_gbp": "-3033.16",
+      "net_gbp": "36842.58"
+    },
+    "2011-02-16": {
+      "rows": 1191,
+      "positive_gbp": "24949.10",
+      "negative_gbp": "-218.29",
+      "net_gbp": "24730.81"
+    },
+    "2011-02-17": {
+      "rows": 1719,
+      "positive_gbp": "26372.67",
+      "negative_gbp": "-10.80",
+      "net_gbp": "26361.87"
+    },
+    "2011-02-18": {
+      "rows": 854,
+      "positive_gbp": "16208.75",
+      "negative_gbp": "-280.35",
+      "net_gbp": "15928.40"
+    },
+    "2011-02-20": {
+      "rows": 864,
+      "positive_gbp": "9624.69",
+      "negative_gbp": "-45.80",
+      "net_gbp": "9578.89"
+    },
+    "2011-02-21": {
+      "rows": 1425,
+      "positive_gbp": "36388.75",
+      "negative_gbp": "-12580.92",
+      "net_gbp": "23807.83"
+    },
+    "2011-02-22": {
+      "rows": 1593,
+      "positive_gbp": "32498.35",
+      "negative_gbp": "-205.73",
+      "net_gbp": "32292.62"
+    },
+    "2011-02-23": {
+      "rows": 1578,
+      "positive_gbp": "26891.60",
+      "negative_gbp": "-98.84",
+      "net_gbp": "26792.76"
+    },
+    "2011-02-24": {
+      "rows": 1294,
+      "positive_gbp": "22809.84",
+      "negative_gbp": "-154.01",
+      "net_gbp": "22655.83"
+    },
+    "2011-02-25": {
+      "rows": 978,
+      "positive_gbp": "20595.74",
+      "negative_gbp": "-2565.90",
+      "net_gbp": "18029.84"
+    },
+    "2011-02-27": {
+      "rows": 812,
+      "positive_gbp": "9526.50",
+      "negative_gbp": "-35.45",
+      "net_gbp": "9491.05"
+    },
+    "2011-02-28": {
+      "rows": 1737,
+      "positive_gbp": "21755.63",
+      "negative_gbp": "-1.95",
+      "net_gbp": "21753.68"
+    },
+    "2011-03-01": {
+      "rows": 1361,
+      "positive_gbp": "26354.96",
+      "negative_gbp": "-883.25",
+      "net_gbp": "25471.71"
+    },
+    "2011-03-02": {
+      "rows": 935,
+      "positive_gbp": "18690.79",
+      "negative_gbp": "-394.34",
+      "net_gbp": "18296.45"
+    },
+    "2011-03-03": {
+      "rows": 1389,
+      "positive_gbp": "36404.00",
+      "negative_gbp": "-561.38",
+      "net_gbp": "35842.62"
+    },
+    "2011-03-04": {
+      "rows": 1107,
+      "positive_gbp": "19506.80",
+      "negative_gbp": "-31.93",
+      "net_gbp": "19474.87"
+    },
+    "2011-03-06": {
+      "rows": 844,
+      "positive_gbp": "10005.37",
+      "negative_gbp": "-409.14",
+      "net_gbp": "9596.23"
+    },
+    "2011-03-07": {
+      "rows": 1971,
+      "positive_gbp": "32356.55",
+      "negative_gbp": "-1830.97",
+      "net_gbp": "30525.58"
+    },
+    "2011-03-08": {
+      "rows": 1600,
+      "positive_gbp": "25081.62",
+      "negative_gbp": "-64.15",
+      "net_gbp": "25017.47"
+    },
+    "2011-03-09": {
+      "rows": 1277,
+      "positive_gbp": "22038.84",
+      "negative_gbp": "-131.72",
+      "net_gbp": "21907.12"
+    },
+    "2011-03-10": {
+      "rows": 1131,
+      "positive_gbp": "26120.22",
+      "negative_gbp": "-522.33",
+      "net_gbp": "25597.89"
+    },
+    "2011-03-11": {
+      "rows": 959,
+      "positive_gbp": "25475.18",
+      "negative_gbp": "-3479.90",
+      "net_gbp": "21995.28"
+    },
+    "2011-03-13": {
+      "rows": 537,
+      "positive_gbp": "4148.12",
+      "negative_gbp": "-10.50",
+      "net_gbp": "4137.62"
+    },
+    "2011-03-14": {
+      "rows": 1111,
+      "positive_gbp": "26019.55",
+      "negative_gbp": "-154.96",
+      "net_gbp": "25864.59"
+    },
+    "2011-03-15": {
+      "rows": 1292,
+      "positive_gbp": "23493.49",
+      "negative_gbp": "-2833.46",
+      "net_gbp": "20660.03"
+    },
+    "2011-03-16": {
+      "rows": 874,
+      "positive_gbp": "21948.36",
+      "negative_gbp": "-765.72",
+      "net_gbp": "21182.64"
+    },
+    "2011-03-17": {
+      "rows": 2074,
+      "positive_gbp": "39904.94",
+      "negative_gbp": "-1100.69",
+      "net_gbp": "38804.25"
+    },
+    "2011-03-18": {
+      "rows": 1379,
+      "positive_gbp": "28171.79",
+      "negative_gbp": "-11401.33",
+      "net_gbp": "16770.46"
+    },
+    "2011-03-20": {
+      "rows": 1453,
+      "positive_gbp": "22153.49",
+      "negative_gbp": "-172.85",
+      "net_gbp": "21980.64"
+    },
+    "2011-03-21": {
+      "rows": 1068,
+      "positive_gbp": "16715.52",
+      "negative_gbp": "-345.25",
+      "net_gbp": "16370.27"
+    },
+    "2011-03-22": {
+      "rows": 2384,
+      "positive_gbp": "31515.58",
+      "negative_gbp": "-203.23",
+      "net_gbp": "31312.35"
+    },
+    "2011-03-23": {
+      "rows": 1319,
+      "positive_gbp": "24091.67",
+      "negative_gbp": "-62.60",
+      "net_gbp": "24029.07"
+    },
+    "2011-03-24": {
+      "rows": 1577,
+      "positive_gbp": "36697.14",
+      "negative_gbp": "-135.04",
+      "net_gbp": "36562.10"
+    },
+    "2011-03-25": {
+      "rows": 1386,
+      "positive_gbp": "31394.21",
+      "negative_gbp": "-738.18",
+      "net_gbp": "30656.03"
+    },
+    "2011-03-27": {
+      "rows": 737,
+      "positive_gbp": "9241.35",
+      "negative_gbp": "-261.37",
+      "net_gbp": "8979.98"
+    },
+    "2011-03-28": {
+      "rows": 1672,
+      "positive_gbp": "23176.72",
+      "negative_gbp": "-3969.69",
+      "net_gbp": "19207.03"
+    },
+    "2011-03-29": {
+      "rows": 1983,
+      "positive_gbp": "70711.92",
+      "negative_gbp": "-180.45",
+      "net_gbp": "70531.47"
+    },
+    "2011-03-30": {
+      "rows": 1590,
+      "positive_gbp": "31885.28",
+      "negative_gbp": "-396.03",
+      "net_gbp": "31489.25"
+    },
+    "2011-03-31": {
+      "rows": 1738,
+      "positive_gbp": "34335.90",
+      "negative_gbp": "-3331.82",
+      "net_gbp": "31004.08"
+    },
+    "2011-04-01": {
+      "rows": 1261,
+      "positive_gbp": "25667.51",
+      "negative_gbp": "-1275.73",
+      "net_gbp": "24391.78"
+    },
+    "2011-04-03": {
+      "rows": 731,
+      "positive_gbp": "6943.15",
+      "negative_gbp": "-65.05",
+      "net_gbp": "6878.10"
+    },
+    "2011-04-04": {
+      "rows": 1705,
+      "positive_gbp": "33254.24",
+      "negative_gbp": "-8181.22",
+      "net_gbp": "25073.02"
+    },
+    "2011-04-05": {
+      "rows": 1215,
+      "positive_gbp": "30144.77",
+      "negative_gbp": "-1790.94",
+      "net_gbp": "28353.83"
+    },
+    "2011-04-06": {
+      "rows": 1122,
+      "positive_gbp": "17362.36",
+      "negative_gbp": "-83.01",
+      "net_gbp": "17279.35"
+    },
+    "2011-04-07": {
+      "rows": 1527,
+      "positive_gbp": "18512.89",
+      "negative_gbp": "-283.89",
+      "net_gbp": "18229.00"
+    },
+    "2011-04-08": {
+      "rows": 1441,
+      "positive_gbp": "25295.64",
+      "negative_gbp": "-1996.50",
+      "net_gbp": "23299.14"
+    },
+    "2011-04-10": {
+      "rows": 940,
+      "positive_gbp": "9913.98",
+      "negative_gbp": "-550.10",
+      "net_gbp": "9363.88"
+    },
+    "2011-04-11": {
+      "rows": 1259,
+      "positive_gbp": "22353.27",
+      "negative_gbp": "-242.96",
+      "net_gbp": "22110.31"
+    },
+    "2011-04-12": {
+      "rows": 1152,
+      "positive_gbp": "25570.30",
+      "negative_gbp": "-446.05",
+      "net_gbp": "25124.25"
+    },
+    "2011-04-13": {
+      "rows": 1052,
+      "positive_gbp": "24484.42",
+      "negative_gbp": "-586.22",
+      "net_gbp": "23898.20"
+    },
+    "2011-04-14": {
+      "rows": 1608,
+      "positive_gbp": "36104.07",
+      "negative_gbp": "-808.49",
+      "net_gbp": "35295.58"
+    },
+    "2011-04-15": {
+      "rows": 1483,
+      "positive_gbp": "28334.12",
+      "negative_gbp": "-6.99",
+      "net_gbp": "28327.13"
+    },
+    "2011-04-17": {
+      "rows": 968,
+      "positive_gbp": "12725.50",
+      "negative_gbp": "-21.20",
+      "net_gbp": "12704.30"
+    },
+    "2011-04-18": {
+      "rows": 3208,
+      "positive_gbp": "56026.18",
+      "negative_gbp": "-23840.57",
+      "net_gbp": "32185.61"
+    },
+    "2011-04-19": {
+      "rows": 1887,
+      "positive_gbp": "24338.70",
+      "negative_gbp": "-501.05",
+      "net_gbp": "23837.65"
+    },
+    "2011-04-20": {
+      "rows": 1025,
+      "positive_gbp": "28670.47",
+      "negative_gbp": "-431.08",
+      "net_gbp": "28239.39"
+    },
+    "2011-04-21": {
+      "rows": 1930,
+      "positive_gbp": "32615.63",
+      "negative_gbp": "-1417.03",
+      "net_gbp": "31198.60"
+    },
+    "2011-04-26": {
+      "rows": 1903,
+      "positive_gbp": "31047.43",
+      "negative_gbp": "-461.89",
+      "net_gbp": "30585.54"
+    },
+    "2011-04-27": {
+      "rows": 1307,
+      "positive_gbp": "25942.44",
+      "negative_gbp": "-351.88",
+      "net_gbp": "25590.56"
+    },
+    "2011-04-28": {
+      "rows": 1192,
+      "positive_gbp": "22501.55",
+      "negative_gbp": "-1259.65",
+      "net_gbp": "21241.90"
+    },
+    "2011-05-01": {
+      "rows": 452,
+      "positive_gbp": "6973.66",
+      "negative_gbp": "-9.00",
+      "net_gbp": "6964.66"
+    },
+    "2011-05-03": {
+      "rows": 1449,
+      "positive_gbp": "35229.41",
+      "negative_gbp": "-15611.55",
+      "net_gbp": "19617.86"
+    },
+    "2011-05-04": {
+      "rows": 1161,
+      "positive_gbp": "27544.15",
+      "negative_gbp": "-81.85",
+      "net_gbp": "27462.30"
+    },
+    "2011-05-05": {
+      "rows": 1838,
+      "positive_gbp": "29174.29",
+      "negative_gbp": "-423.64",
+      "net_gbp": "28750.65"
+    },
+    "2011-05-06": {
+      "rows": 2051,
+      "positive_gbp": "36126.35",
+      "negative_gbp": "-411.77",
+      "net_gbp": "35714.58"
+    },
+    "2011-05-08": {
+      "rows": 1506,
+      "positive_gbp": "18867.40",
+      "negative_gbp": "-58.48",
+      "net_gbp": "18808.92"
+    },
+    "2011-05-09": {
+      "rows": 1766,
+      "positive_gbp": "27899.71",
+      "negative_gbp": "-1839.28",
+      "net_gbp": "26060.43"
+    },
+    "2011-05-10": {
+      "rows": 2586,
+      "positive_gbp": "47819.98",
+      "negative_gbp": "-2255.86",
+      "net_gbp": "45564.12"
+    },
+    "2011-05-11": {
+      "rows": 1701,
+      "positive_gbp": "33687.25",
+      "negative_gbp": "-446.89",
+      "net_gbp": "33240.36"
+    },
+    "2011-05-12": {
+      "rows": 1965,
+      "positive_gbp": "61903.09",
+      "negative_gbp": "-1991.12",
+      "net_gbp": "59911.97"
+    },
+    "2011-05-13": {
+      "rows": 1425,
+      "positive_gbp": "30749.95",
+      "negative_gbp": "-5.88",
+      "net_gbp": "30744.07"
+    },
+    "2011-05-15": {
+      "rows": 809,
+      "positive_gbp": "9924.28",
+      "negative_gbp": "0",
+      "net_gbp": "9924.28"
+    },
+    "2011-05-16": {
+      "rows": 1609,
+      "positive_gbp": "39651.28",
+      "negative_gbp": "-14371.51",
+      "net_gbp": "25279.77"
+    },
+    "2011-05-17": {
+      "rows": 1932,
+      "positive_gbp": "55151.99",
+      "negative_gbp": "-1548.16",
+      "net_gbp": "53603.83"
+    },
+    "2011-05-18": {
+      "rows": 1366,
+      "positive_gbp": "34483.44",
+      "negative_gbp": "-146.15",
+      "net_gbp": "34337.29"
+    },
+    "2011-05-19": {
+      "rows": 1949,
+      "positive_gbp": "35599.35",
+      "negative_gbp": "-1250.60",
+      "net_gbp": "34348.75"
+    },
+    "2011-05-20": {
+      "rows": 1129,
+      "positive_gbp": "26718.17",
+      "negative_gbp": "-461.65",
+      "net_gbp": "26256.52"
+    },
+    "2011-05-22": {
+      "rows": 1564,
+      "positive_gbp": "24231.09",
+      "negative_gbp": "-25.72",
+      "net_gbp": "24205.37"
+    },
+    "2011-05-23": {
+      "rows": 1646,
+      "positive_gbp": "34685.60",
+      "negative_gbp": "-3946.05",
+      "net_gbp": "30739.55"
+    },
+    "2011-05-24": {
+      "rows": 1750,
+      "positive_gbp": "37660.04",
+      "negative_gbp": "-631.13",
+      "net_gbp": "37028.91"
+    },
+    "2011-05-25": {
+      "rows": 1322,
+      "positive_gbp": "24408.12",
+      "negative_gbp": "-255.84",
+      "net_gbp": "24152.28"
+    },
+    "2011-05-26": {
+      "rows": 971,
+      "positive_gbp": "33497.03",
+      "negative_gbp": "-288.44",
+      "net_gbp": "33208.59"
+    },
+    "2011-05-27": {
+      "rows": 1170,
+      "positive_gbp": "28442.03",
+      "negative_gbp": "-209.84",
+      "net_gbp": "28232.19"
+    },
+    "2011-05-29": {
+      "rows": 632,
+      "positive_gbp": "7394.30",
+      "negative_gbp": "-186.00",
+      "net_gbp": "7208.30"
+    },
+    "2011-05-31": {
+      "rows": 1281,
+      "positive_gbp": "22714.06",
+      "negative_gbp": "-746.10",
+      "net_gbp": "21967.96"
+    },
+    "2011-06-01": {
+      "rows": 1456,
+      "positive_gbp": "20595.69",
+      "negative_gbp": "-404.49",
+      "net_gbp": "20191.20"
+    },
+    "2011-06-02": {
+      "rows": 1588,
+      "positive_gbp": "32826.14",
+      "negative_gbp": "-324.13",
+      "net_gbp": "32502.01"
+    },
+    "2011-06-03": {
+      "rows": 858,
+      "positive_gbp": "16913.25",
+      "negative_gbp": "-162.25",
+      "net_gbp": "16751.00"
+    },
+    "2011-06-05": {
+      "rows": 1561,
+      "positive_gbp": "25639.54",
+      "negative_gbp": "-119.19",
+      "net_gbp": "25520.35"
+    },
+    "2011-06-06": {
+      "rows": 1229,
+      "positive_gbp": "17789.07",
+      "negative_gbp": "-997.68",
+      "net_gbp": "16791.39"
+    },
+    "2011-06-07": {
+      "rows": 1926,
+      "positive_gbp": "37957.72",
+      "negative_gbp": "-313.42",
+      "net_gbp": "37644.30"
+    },
+    "2011-06-08": {
+      "rows": 2327,
+      "positive_gbp": "43264.33",
+      "negative_gbp": "-323.42",
+      "net_gbp": "42940.91"
+    },
+    "2011-06-09": {
+      "rows": 1850,
+      "positive_gbp": "46389.10",
+      "negative_gbp": "-873.35",
+      "net_gbp": "45515.75"
+    },
+    "2011-06-10": {
+      "rows": 1067,
+      "positive_gbp": "62234.44",
+      "negative_gbp": "-39693.78",
+      "net_gbp": "22540.66"
+    },
+    "2011-06-12": {
+      "rows": 1075,
+      "positive_gbp": "12517.06",
+      "negative_gbp": "-33.20",
+      "net_gbp": "12483.86"
+    },
+    "2011-06-13": {
+      "rows": 1472,
+      "positive_gbp": "22457.21",
+      "negative_gbp": "-2084.28",
+      "net_gbp": "20372.93"
+    },
+    "2011-06-14": {
+      "rows": 1587,
+      "positive_gbp": "40474.01",
+      "negative_gbp": "-262.08",
+      "net_gbp": "40211.93"
+    },
+    "2011-06-15": {
+      "rows": 1718,
+      "positive_gbp": "49097.99",
+      "negative_gbp": "-2958.81",
+      "net_gbp": "46139.18"
+    },
+    "2011-06-16": {
+      "rows": 1534,
+      "positive_gbp": "34584.68",
+      "negative_gbp": "-452.95",
+      "net_gbp": "34131.73"
+    },
+    "2011-06-17": {
+      "rows": 961,
+      "positive_gbp": "21076.17",
+      "negative_gbp": "-275.45",
+      "net_gbp": "20800.72"
+    },
+    "2011-06-19": {
+      "rows": 1167,
+      "positive_gbp": "22442.18",
+      "negative_gbp": "-82.17",
+      "net_gbp": "22360.01"
+    },
+    "2011-06-20": {
+      "rows": 2020,
+      "positive_gbp": "37514.98",
+      "negative_gbp": "-4021.58",
+      "net_gbp": "33493.40"
+    },
+    "2011-06-21": {
+      "rows": 1538,
+      "positive_gbp": "24784.37",
+      "negative_gbp": "-2054.36",
+      "net_gbp": "22730.01"
+    },
+    "2011-06-22": {
+      "rows": 1017,
+      "positive_gbp": "21825.99",
+      "negative_gbp": "-31.05",
+      "net_gbp": "21794.94"
+    },
+    "2011-06-23": {
+      "rows": 1973,
+      "positive_gbp": "25242.82",
+      "negative_gbp": "-969.51",
+      "net_gbp": "24273.31"
+    },
+    "2011-06-24": {
+      "rows": 1039,
+      "positive_gbp": "19521.96",
+      "negative_gbp": "-10902.08",
+      "net_gbp": "8619.88"
+    },
+    "2011-06-26": {
+      "rows": 708,
+      "positive_gbp": "7082.49",
+      "negative_gbp": "-907.32",
+      "net_gbp": "6175.17"
+    },
+    "2011-06-27": {
+      "rows": 1182,
+      "positive_gbp": "17015.76",
+      "negative_gbp": "-191.90",
+      "net_gbp": "16823.86"
+    },
+    "2011-06-28": {
+      "rows": 1043,
+      "positive_gbp": "35607.32",
+      "negative_gbp": "-902.68",
+      "net_gbp": "34704.64"
+    },
+    "2011-06-29": {
+      "rows": 1358,
+      "positive_gbp": "22088.32",
+      "negative_gbp": "-312.89",
+      "net_gbp": "21775.43"
+    },
+    "2011-06-30": {
+      "rows": 1620,
+      "positive_gbp": "44797.31",
+      "negative_gbp": "-962.76",
+      "net_gbp": "43834.55"
+    },
+    "2011-07-01": {
+      "rows": 1027,
+      "positive_gbp": "13675.06",
+      "negative_gbp": "-503.24",
+      "net_gbp": "13171.82"
+    },
+    "2011-07-03": {
+      "rows": 602,
+      "positive_gbp": "6032.39",
+      "negative_gbp": "-55.25",
+      "net_gbp": "5977.14"
+    },
+    "2011-07-04": {
+      "rows": 2200,
+      "positive_gbp": "44652.83",
+      "negative_gbp": "-498.08",
+      "net_gbp": "44154.75"
+    },
+    "2011-07-05": {
+      "rows": 2202,
+      "positive_gbp": "40758.43",
+      "negative_gbp": "-423.46",
+      "net_gbp": "40334.97"
+    },
+    "2011-07-06": {
+      "rows": 1816,
+      "positive_gbp": "26387.54",
+      "negative_gbp": "-107.96",
+      "net_gbp": "26279.58"
+    },
+    "2011-07-07": {
+      "rows": 1940,
+      "positive_gbp": "32445.71",
+      "negative_gbp": "-1087.99",
+      "net_gbp": "31357.72"
+    },
+    "2011-07-08": {
+      "rows": 1630,
+      "positive_gbp": "27082.10",
+      "negative_gbp": "-242.02",
+      "net_gbp": "26840.08"
+    },
+    "2011-07-10": {
+      "rows": 820,
+      "positive_gbp": "5993.87",
+      "negative_gbp": "-301.80",
+      "net_gbp": "5692.07"
+    },
+    "2011-07-11": {
+      "rows": 1515,
+      "positive_gbp": "22605.02",
+      "negative_gbp": "-175.49",
+      "net_gbp": "22429.53"
+    },
+    "2011-07-12": {
+      "rows": 1667,
+      "positive_gbp": "26262.55",
+      "negative_gbp": "-370.51",
+      "net_gbp": "25892.04"
+    },
+    "2011-07-13": {
+      "rows": 1618,
+      "positive_gbp": "22641.94",
+      "negative_gbp": "-11029.89",
+      "net_gbp": "11612.05"
+    },
+    "2011-07-14": {
+      "rows": 1734,
+      "positive_gbp": "33602.13",
+      "negative_gbp": "-1026.17",
+      "net_gbp": "32575.96"
+    },
+    "2011-07-15": {
+      "rows": 1136,
+      "positive_gbp": "14836.43",
+      "negative_gbp": "-357.50",
+      "net_gbp": "14478.93"
+    },
+    "2011-07-17": {
+      "rows": 1248,
+      "positive_gbp": "17194.56",
+      "negative_gbp": "-19.90",
+      "net_gbp": "17174.66"
+    },
+    "2011-07-18": {
+      "rows": 2234,
+      "positive_gbp": "38831.61",
+      "negative_gbp": "-10388.34",
+      "net_gbp": "28443.27"
+    },
+    "2011-07-19": {
+      "rows": 1667,
+      "positive_gbp": "50182.83",
+      "negative_gbp": "-866.05",
+      "net_gbp": "49316.78"
+    },
+    "2011-07-20": {
+      "rows": 2015,
+      "positive_gbp": "33308.24",
+      "negative_gbp": "-6002.83",
+      "net_gbp": "27305.41"
+    },
+    "2011-07-21": {
+      "rows": 1570,
+      "positive_gbp": "32818.54",
+      "negative_gbp": "-1861.47",
+      "net_gbp": "30957.07"
+    },
+    "2011-07-22": {
+      "rows": 1301,
+      "positive_gbp": "20124.86",
+      "negative_gbp": "-109.63",
+      "net_gbp": "20015.23"
+    },
+    "2011-07-24": {
+      "rows": 1125,
+      "positive_gbp": "27099.46",
+      "negative_gbp": "-623.26",
+      "net_gbp": "26476.20"
+    },
+    "2011-07-25": {
+      "rows": 1946,
+      "positive_gbp": "26887.15",
+      "negative_gbp": "-199.50",
+      "net_gbp": "26687.65"
+    },
+    "2011-07-26": {
+      "rows": 1279,
+      "positive_gbp": "21644.26",
+      "negative_gbp": "-372.96",
+      "net_gbp": "21271.30"
+    },
+    "2011-07-27": {
+      "rows": 1259,
+      "positive_gbp": "25602.93",
+      "negative_gbp": "-34.48",
+      "net_gbp": "25568.45"
+    },
+    "2011-07-28": {
+      "rows": 1565,
+      "positive_gbp": "56269.74",
+      "negative_gbp": "-562.86",
+      "net_gbp": "55706.88"
+    },
+    "2011-07-29": {
+      "rows": 1131,
+      "positive_gbp": "18790.40",
+      "negative_gbp": "-696.19",
+      "net_gbp": "18094.21"
+    },
+    "2011-07-31": {
+      "rows": 1271,
+      "positive_gbp": "33490.61",
+      "negative_gbp": "-4.25",
+      "net_gbp": "33486.36"
+    },
+    "2011-08-01": {
+      "rows": 1200,
+      "positive_gbp": "21388.92",
+      "negative_gbp": "-26.08",
+      "net_gbp": "21362.84"
+    },
+    "2011-08-02": {
+      "rows": 1369,
+      "positive_gbp": "26580.60",
+      "negative_gbp": "-11633.33",
+      "net_gbp": "14947.27"
+    },
+    "2011-08-03": {
+      "rows": 1560,
+      "positive_gbp": "28113.14",
+      "negative_gbp": "-1038.12",
+      "net_gbp": "27075.02"
+    },
+    "2011-08-04": {
+      "rows": 1839,
+      "positive_gbp": "65502.21",
+      "negative_gbp": "-4473.56",
+      "net_gbp": "61028.65"
+    },
+    "2011-08-05": {
+      "rows": 1455,
+      "positive_gbp": "21538.58",
+      "negative_gbp": "-240.28",
+      "net_gbp": "21298.30"
+    },
+    "2011-08-07": {
+      "rows": 541,
+      "positive_gbp": "7578.91",
+      "negative_gbp": "-114.79",
+      "net_gbp": "7464.12"
+    },
+    "2011-08-08": {
+      "rows": 1490,
+      "positive_gbp": "23377.65",
+      "negative_gbp": "-3390.50",
+      "net_gbp": "19987.15"
+    },
+    "2011-08-09": {
+      "rows": 1119,
+      "positive_gbp": "27679.44",
+      "negative_gbp": "-1056.24",
+      "net_gbp": "26623.20"
+    },
+    "2011-08-10": {
+      "rows": 1376,
+      "positive_gbp": "28792.34",
+      "negative_gbp": "-1318.12",
+      "net_gbp": "27474.22"
+    },
+    "2011-08-11": {
+      "rows": 1984,
+      "positive_gbp": "72433.79",
+      "negative_gbp": "-301.00",
+      "net_gbp": "72132.79"
+    },
+    "2011-08-12": {
+      "rows": 1122,
+      "positive_gbp": "32231.35",
+      "negative_gbp": "-22181.87",
+      "net_gbp": "10049.48"
+    },
+    "2011-08-14": {
+      "rows": 557,
+      "positive_gbp": "5718.57",
+      "negative_gbp": "-568.39",
+      "net_gbp": "5150.18"
+    },
+    "2011-08-15": {
+      "rows": 926,
+      "positive_gbp": "17243.97",
+      "negative_gbp": "-38.43",
+      "net_gbp": "17205.54"
+    },
+    "2011-08-16": {
+      "rows": 1035,
+      "positive_gbp": "19239.66",
+      "negative_gbp": "-135.95",
+      "net_gbp": "19103.71"
+    },
+    "2011-08-17": {
+      "rows": 1666,
+      "positive_gbp": "53499.96",
+      "negative_gbp": "-4107.74",
+      "net_gbp": "49392.22"
+    },
+    "2011-08-18": {
+      "rows": 1539,
+      "positive_gbp": "54106.93",
+      "negative_gbp": "-881.26",
+      "net_gbp": "53225.67"
+    },
+    "2011-08-19": {
+      "rows": 819,
+      "positive_gbp": "17349.59",
+      "negative_gbp": "-101.05",
+      "net_gbp": "17248.54"
+    },
+    "2011-08-21": {
+      "rows": 1070,
+      "positive_gbp": "14576.86",
+      "negative_gbp": "-27.65",
+      "net_gbp": "14549.21"
+    },
+    "2011-08-22": {
+      "rows": 1272,
+      "positive_gbp": "29651.46",
+      "negative_gbp": "-1673.05",
+      "net_gbp": "27978.41"
+    },
+    "2011-08-23": {
+      "rows": 1458,
+      "positive_gbp": "25993.68",
+      "negative_gbp": "-237.38",
+      "net_gbp": "25756.30"
+    },
+    "2011-08-24": {
+      "rows": 1876,
+      "positive_gbp": "49035.36",
+      "negative_gbp": "-11960.46",
+      "net_gbp": "37074.90"
+    },
+    "2011-08-25": {
+      "rows": 1342,
+      "positive_gbp": "23827.46",
+      "negative_gbp": "-1368.58",
+      "net_gbp": "22458.88"
+    },
+    "2011-08-26": {
+      "rows": 929,
+      "positive_gbp": "25626.44",
+      "negative_gbp": "-76.21",
+      "net_gbp": "25550.23"
+    },
+    "2011-08-28": {
+      "rows": 1200,
+      "positive_gbp": "10805.03",
+      "negative_gbp": "-20.25",
+      "net_gbp": "10784.78"
+    },
+    "2011-08-30": {
+      "rows": 3235,
+      "positive_gbp": "31866.31",
+      "negative_gbp": "-225.41",
+      "net_gbp": "31640.90"
+    },
+    "2011-08-31": {
+      "rows": 1305,
+      "positive_gbp": "25380.17",
+      "negative_gbp": "-9262.17",
+      "net_gbp": "16118.00"
+    },
+    "2011-09-01": {
+      "rows": 1405,
+      "positive_gbp": "37370.15",
+      "negative_gbp": "-73.55",
+      "net_gbp": "37296.60"
+    },
+    "2011-09-02": {
+      "rows": 2376,
+      "positive_gbp": "42322.02",
+      "negative_gbp": "-576.95",
+      "net_gbp": "41745.07"
+    },
+    "2011-09-04": {
+      "rows": 1343,
+      "positive_gbp": "17119.59",
+      "negative_gbp": "-101.10",
+      "net_gbp": "17018.49"
+    },
+    "2011-09-05": {
+      "rows": 1587,
+      "positive_gbp": "37157.14",
+      "negative_gbp": "-313.10",
+      "net_gbp": "36844.04"
+    },
+    "2011-09-06": {
+      "rows": 1140,
+      "positive_gbp": "28349.91",
+      "negative_gbp": "-297.29",
+      "net_gbp": "28052.62"
+    },
+    "2011-09-07": {
+      "rows": 2112,
+      "positive_gbp": "34413.53",
+      "negative_gbp": "-287.88",
+      "net_gbp": "34125.65"
+    },
+    "2011-09-08": {
+      "rows": 1779,
+      "positive_gbp": "27195.80",
+      "negative_gbp": "-487.80",
+      "net_gbp": "26708.00"
+    },
+    "2011-09-09": {
+      "rows": 1607,
+      "positive_gbp": "30075.62",
+      "negative_gbp": "-757.93",
+      "net_gbp": "29317.69"
+    },
+    "2011-09-11": {
+      "rows": 2032,
+      "positive_gbp": "35511.67",
+      "negative_gbp": "-46.20",
+      "net_gbp": "35465.47"
+    },
+    "2011-09-12": {
+      "rows": 1702,
+      "positive_gbp": "29738.33",
+      "negative_gbp": "-699.02",
+      "net_gbp": "29039.31"
+    },
+    "2011-09-13": {
+      "rows": 2438,
+      "positive_gbp": "55117.05",
+      "negative_gbp": "-288.60",
+      "net_gbp": "54828.45"
+    },
+    "2011-09-14": {
+      "rows": 1376,
+      "positive_gbp": "23592.98",
+      "negative_gbp": "-232.32",
+      "net_gbp": "23360.66"
+    },
+    "2011-09-15": {
+      "rows": 2197,
+      "positive_gbp": "78218.95",
+      "negative_gbp": "-15275.14",
+      "net_gbp": "62943.81"
+    },
+    "2011-09-16": {
+      "rows": 1475,
+      "positive_gbp": "27724.22",
+      "negative_gbp": "-1866.16",
+      "net_gbp": "25858.06"
+    },
+    "2011-09-18": {
+      "rows": 1274,
+      "positive_gbp": "15745.73",
+      "negative_gbp": "-53.40",
+      "net_gbp": "15692.33"
+    },
+    "2011-09-19": {
+      "rows": 1436,
+      "positive_gbp": "49269.88",
+      "negative_gbp": "-3057.67",
+      "net_gbp": "46212.21"
+    },
+    "2011-09-20": {
+      "rows": 1718,
+      "positive_gbp": "109612.03",
+      "negative_gbp": "-325.82",
+      "net_gbp": "109286.21"
+    },
+    "2011-09-21": {
+      "rows": 3129,
+      "positive_gbp": "48560.68",
+      "negative_gbp": "-5616.61",
+      "net_gbp": "42944.07"
+    },
+    "2011-09-22": {
+      "rows": 2748,
+      "positive_gbp": "59354.79",
+      "negative_gbp": "-2277.96",
+      "net_gbp": "57076.83"
+    },
+    "2011-09-23": {
+      "rows": 2642,
+      "positive_gbp": "40601.75",
+      "negative_gbp": "-1175.27",
+      "net_gbp": "39426.48"
+    },
+    "2011-09-25": {
+      "rows": 1987,
+      "positive_gbp": "31372.66",
+      "negative_gbp": "-161.74",
+      "net_gbp": "31210.92"
+    },
+    "2011-09-26": {
+      "rows": 1554,
+      "positive_gbp": "29335.17",
+      "negative_gbp": "-692.90",
+      "net_gbp": "28642.27"
+    },
+    "2011-09-27": {
+      "rows": 1897,
+      "positive_gbp": "36322.95",
+      "negative_gbp": "-570.79",
+      "net_gbp": "35752.16"
+    },
+    "2011-09-28": {
+      "rows": 2877,
+      "positive_gbp": "43749.06",
+      "negative_gbp": "-366.02",
+      "net_gbp": "43383.04"
+    },
+    "2011-09-29": {
+      "rows": 2508,
+      "positive_gbp": "46401.45",
+      "negative_gbp": "-2937.12",
+      "net_gbp": "43464.33"
+    },
+    "2011-09-30": {
+      "rows": 1887,
+      "positive_gbp": "44357.06",
+      "negative_gbp": "-364.21",
+      "net_gbp": "43992.85"
+    },
+    "2011-10-02": {
+      "rows": 1429,
+      "positive_gbp": "11634.53",
+      "negative_gbp": "-10.95",
+      "net_gbp": "11623.58"
+    },
+    "2011-10-03": {
+      "rows": 2296,
+      "positive_gbp": "66376.82",
+      "negative_gbp": "-2162.04",
+      "net_gbp": "64214.78"
+    },
+    "2011-10-04": {
+      "rows": 2797,
+      "positive_gbp": "48810.65",
+      "negative_gbp": "-569.81",
+      "net_gbp": "48240.84"
+    },
+    "2011-10-05": {
+      "rows": 2447,
+      "positive_gbp": "75593.63",
+      "negative_gbp": "-349.20",
+      "net_gbp": "75244.43"
+    },
+    "2011-10-06": {
+      "rows": 3189,
+      "positive_gbp": "62891.19",
+      "negative_gbp": "-7584.91",
+      "net_gbp": "55306.28"
+    },
+    "2011-10-07": {
+      "rows": 2426,
+      "positive_gbp": "53790.70",
+      "negative_gbp": "-6252.68",
+      "net_gbp": "47538.02"
+    },
+    "2011-10-09": {
+      "rows": 1292,
+      "positive_gbp": "12524.40",
+      "negative_gbp": "-602.16",
+      "net_gbp": "11922.24"
+    },
+    "2011-10-10": {
+      "rows": 3232,
+      "positive_gbp": "48239.18",
+      "negative_gbp": "-3973.29",
+      "net_gbp": "44265.89"
+    },
+    "2011-10-11": {
+      "rows": 2467,
+      "positive_gbp": "52572.94",
+      "negative_gbp": "-14305.19",
+      "net_gbp": "38267.75"
+    },
+    "2011-10-12": {
+      "rows": 2193,
+      "positive_gbp": "32159.28",
+      "negative_gbp": "-2856.43",
+      "net_gbp": "29302.85"
+    },
+    "2011-10-13": {
+      "rows": 2358,
+      "positive_gbp": "37446.18",
+      "negative_gbp": "-379.01",
+      "net_gbp": "37067.17"
+    },
+    "2011-10-14": {
+      "rows": 1810,
+      "positive_gbp": "36347.64",
+      "negative_gbp": "-1122.10",
+      "net_gbp": "35225.54"
+    },
+    "2011-10-16": {
+      "rows": 1254,
+      "positive_gbp": "22010.96",
+      "negative_gbp": "-405.52",
+      "net_gbp": "21605.44"
+    },
+    "2011-10-17": {
+      "rows": 2944,
+      "positive_gbp": "52062.20",
+      "negative_gbp": "-4998.06",
+      "net_gbp": "47064.14"
+    },
+    "2011-10-18": {
+      "rows": 2908,
+      "positive_gbp": "45332.16",
+      "negative_gbp": "-694.32",
+      "net_gbp": "44637.84"
+    },
+    "2011-10-19": {
+      "rows": 2318,
+      "positive_gbp": "42573.36",
+      "negative_gbp": "-6569.93",
+      "net_gbp": "36003.43"
+    },
+    "2011-10-20": {
+      "rows": 2350,
+      "positive_gbp": "61122.90",
+      "negative_gbp": "-329.76",
+      "net_gbp": "60793.14"
+    },
+    "2011-10-21": {
+      "rows": 1404,
+      "positive_gbp": "63226.64",
+      "negative_gbp": "-265.38",
+      "net_gbp": "62961.26"
+    },
+    "2011-10-23": {
+      "rows": 1728,
+      "positive_gbp": "12339.16",
+      "negative_gbp": "-36.75",
+      "net_gbp": "12302.41"
+    },
+    "2011-10-24": {
+      "rows": 2976,
+      "positive_gbp": "48752.91",
+      "negative_gbp": "-10345.19",
+      "net_gbp": "38407.72"
+    },
+    "2011-10-25": {
+      "rows": 2492,
+      "positive_gbp": "41314.64",
+      "negative_gbp": "-507.15",
+      "net_gbp": "40807.49"
+    },
+    "2011-10-26": {
+      "rows": 1930,
+      "positive_gbp": "38059.43",
+      "negative_gbp": "-217.35",
+      "net_gbp": "37842.08"
+    },
+    "2011-10-27": {
+      "rows": 2540,
+      "positive_gbp": "57291.72",
+      "negative_gbp": "-9811.57",
+      "net_gbp": "47480.15"
+    },
+    "2011-10-28": {
+      "rows": 1641,
+      "positive_gbp": "40565.70",
+      "negative_gbp": "-1006.23",
+      "net_gbp": "39559.47"
+    },
+    "2011-10-30": {
+      "rows": 2907,
+      "positive_gbp": "34571.23",
+      "negative_gbp": "-25.95",
+      "net_gbp": "34545.28"
+    },
+    "2011-10-31": {
+      "rows": 3414,
+      "positive_gbp": "57369.15",
+      "negative_gbp": "-8893.70",
+      "net_gbp": "48475.45"
+    },
+    "2011-11-01": {
+      "rows": 1786,
+      "positive_gbp": "29155.15",
+      "negative_gbp": "-413.60",
+      "net_gbp": "28741.55"
+    },
+    "2011-11-02": {
+      "rows": 2632,
+      "positive_gbp": "45888.34",
+      "negative_gbp": "-649.28",
+      "net_gbp": "45239.06"
+    },
+    "2011-11-03": {
+      "rows": 2419,
+      "positive_gbp": "63561.49",
+      "negative_gbp": "-744.94",
+      "net_gbp": "62816.55"
+    },
+    "2011-11-04": {
+      "rows": 3011,
+      "positive_gbp": "62977.36",
+      "negative_gbp": "-2895.60",
+      "net_gbp": "60081.76"
+    },
+    "2011-11-06": {
+      "rows": 3437,
+      "positive_gbp": "42946.34",
+      "negative_gbp": "-33.94",
+      "net_gbp": "42912.40"
+    },
+    "2011-11-07": {
+      "rows": 2099,
+      "positive_gbp": "85881.81",
+      "negative_gbp": "-15880.73",
+      "net_gbp": "70001.08"
+    },
+    "2011-11-08": {
+      "rows": 4070,
+      "positive_gbp": "57700.24",
+      "negative_gbp": "-1052.58",
+      "net_gbp": "56647.66"
+    },
+    "2011-11-09": {
+      "rows": 2716,
+      "positive_gbp": "66127.57",
+      "negative_gbp": "-3528.14",
+      "net_gbp": "62599.43"
+    },
+    "2011-11-10": {
+      "rows": 3275,
+      "positive_gbp": "71008.26",
+      "negative_gbp": "-2052.02",
+      "net_gbp": "68956.24"
+    },
+    "2011-11-11": {
+      "rows": 4089,
+      "positive_gbp": "55257.17",
+      "negative_gbp": "-421.66",
+      "net_gbp": "54835.51"
+    },
+    "2011-11-13": {
+      "rows": 3018,
+      "positive_gbp": "34069.92",
+      "negative_gbp": "-549.70",
+      "net_gbp": "33520.22"
+    },
+    "2011-11-14": {
+      "rows": 3597,
+      "positive_gbp": "114419.89",
+      "negative_gbp": "-2278.78",
+      "net_gbp": "112141.11"
+    },
+    "2011-11-15": {
+      "rows": 3445,
+      "positive_gbp": "60807.29",
+      "negative_gbp": "-213.06",
+      "net_gbp": "60594.23"
+    },
+    "2011-11-16": {
+      "rows": 4195,
+      "positive_gbp": "65958.17",
+      "negative_gbp": "-1549.47",
+      "net_gbp": "64408.70"
+    },
+    "2011-11-17": {
+      "rows": 3621,
+      "positive_gbp": "61103.13",
+      "negative_gbp": "-773.41",
+      "net_gbp": "60329.72"
+    },
+    "2011-11-18": {
+      "rows": 2920,
+      "positive_gbp": "51275.39",
+      "negative_gbp": "-3243.59",
+      "net_gbp": "48031.80"
+    },
+    "2011-11-20": {
+      "rows": 3334,
+      "positive_gbp": "35058.57",
+      "negative_gbp": "-156.56",
+      "net_gbp": "34902.01"
+    },
+    "2011-11-21": {
+      "rows": 2930,
+      "positive_gbp": "49805.72",
+      "negative_gbp": "-1503.22",
+      "net_gbp": "48302.50"
+    },
+    "2011-11-22": {
+      "rows": 3967,
+      "positive_gbp": "64089.82",
+      "negative_gbp": "-1782.50",
+      "net_gbp": "62307.32"
+    },
+    "2011-11-23": {
+      "rows": 3619,
+      "positive_gbp": "80104.18",
+      "negative_gbp": "-1623.48",
+      "net_gbp": "78480.70"
+    },
+    "2011-11-24": {
+      "rows": 3766,
+      "positive_gbp": "50978.63",
+      "negative_gbp": "-2898.35",
+      "net_gbp": "48080.28"
+    },
+    "2011-11-25": {
+      "rows": 3125,
+      "positive_gbp": "50822.73",
+      "negative_gbp": "-380.01",
+      "net_gbp": "50442.72"
+    },
+    "2011-11-27": {
+      "rows": 2543,
+      "positive_gbp": "20611.08",
+      "negative_gbp": "-39.58",
+      "net_gbp": "20571.50"
+    },
+    "2011-11-28": {
+      "rows": 3330,
+      "positive_gbp": "57165.19",
+      "negative_gbp": "-1723.17",
+      "net_gbp": "55442.02"
+    },
+    "2011-11-29": {
+      "rows": 4313,
+      "positive_gbp": "72595.93",
+      "negative_gbp": "-376.73",
+      "net_gbp": "72219.20"
+    },
+    "2011-11-30": {
+      "rows": 3454,
+      "positive_gbp": "60126.96",
+      "negative_gbp": "-975.98",
+      "net_gbp": "59150.98"
+    },
+    "2011-12-01": {
+      "rows": 2901,
+      "positive_gbp": "52197.25",
+      "negative_gbp": "-786.30",
+      "net_gbp": "51410.95"
+    },
+    "2011-12-02": {
+      "rows": 2880,
+      "positive_gbp": "57664.07",
+      "negative_gbp": "-578.01",
+      "net_gbp": "57086.06"
+    },
+    "2011-12-04": {
+      "rows": 2038,
+      "positive_gbp": "24621.43",
+      "negative_gbp": "-55.65",
+      "net_gbp": "24565.78"
+    },
+    "2011-12-05": {
+      "rows": 5331,
+      "positive_gbp": "88741.96",
+      "negative_gbp": "-30990.64",
+      "net_gbp": "57751.32"
+    },
+    "2011-12-06": {
+      "rows": 3365,
+      "positive_gbp": "56713.21",
+      "negative_gbp": "-2484.84",
+      "net_gbp": "54228.37"
+    },
+    "2011-12-07": {
+      "rows": 2438,
+      "positive_gbp": "75439.16",
+      "negative_gbp": "-362.94",
+      "net_gbp": "75076.22"
+    },
+    "2011-12-08": {
+      "rows": 4940,
+      "positive_gbp": "82495.00",
+      "negative_gbp": "-1077.22",
+      "net_gbp": "81417.78"
+    },
+    "2011-12-09": {
+      "rows": 1632,
+      "positive_gbp": "200920.60",
+      "negative_gbp": "-168789.07",
+      "net_gbp": "32131.53"
+    }
+  }
+}

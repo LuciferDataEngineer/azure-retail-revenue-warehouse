@@ -1,0 +1,86 @@
+{
+  "execution": "local only; no Azure SQL or infrastructure runtime validation",
+  "python": "3.14.7",
+  "duckdb": "2.0.0",
+  "pyarrow": "26.0.0",
+  "openpyxl": "3.1.5",
+  "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "independent_daily_decimal_reconciliations": 305,
+  "physical_source_rows_exactly_accounted": 541909,
+  "dimension_orphans": 0,
+  "dimension_counts": {
+    "dim_customer": 4373,
+    "dim_product": 5749,
+    "dim_country": 38,
+    "dim_date": 305
+  },
+  "same_source_replayed_days": 305,
+  "seven_calendar_date_backfill_observed_days": 6,
+  "business_fingerprints_unchanged": true,
+  "fingerprints": {
+    "workbook_sources": [
+      1,
+      5443263222266759330,
+      "5443263222266759330"
+    ],
+    "batch_versions": [
+      305,
+      5668143669847453375,
+      "2503070606375651464231"
+    ],
+    "current_batches": [
+      305,
+      6216246828995736755,
+      "2945612928381713222803"
+    ],
+    "fact_sales": [
+      541909,
+      15980692010718464923,
+      "5000598628115289057404881"
+    ],
+    "quarantine": [
+      0,
+      null,
+      null
+    ],
+    "dim_customer": [
+      4373,
+      374534930514497144,
+      "40644474071563604270886"
+    ],
+    "dim_product": [
+      5749,
+      1865794519948815371,
+      "52860777279738477559209"
+    ],
+    "dim_country": [
+      38,
+      5394983939174006197,
+      "372877827184120796387"
+    ],
+    "dim_date": [
+      305,
+      5786415480728234895,
+      "2639819189501904677009"
+    ]
+  },
+  "csv_rows_exactly_compared": {
+    "daily_revenue": 1716,
+    "quality": 0,
+    "batches": 305
+  },
+  "totals": {
+    "raw_rows": 541909,
+    "quarantined_rows": 0,
+    "accepted_rows": 541909,
+    "positive_sales": "10666684.54",
+    "negative_adjustments": "-918936.61",
+    "net_revenue": "9747747.93",
+    "zero_value_lines": 2519,
+    "unknown_customer_lines": 135080,
+    "candidate_duplicate_lines": 5268,
+    "cancellation_lines": 9288,
+    "cancellation_sign_mismatch_lines": 1336,
+    "negative_price_lines": 2
+  }
+}
