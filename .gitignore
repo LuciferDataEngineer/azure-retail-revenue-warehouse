@@ -14,3 +14,14 @@ data/
 .env*
 .DS_Store
 infra/compiled/
+
+# Browser dashboard build and local presentation
+site/node_modules/
+site/dist/
+site/.data-app-offline/
+site/.openai/*
+!site/.openai/hosting.json
+!site/data/
+site/data/*
+!site/data/dashboard.json
+site/.DS_Store

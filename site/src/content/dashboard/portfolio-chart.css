@@ -1,0 +1,13 @@
+.portfolio-bar-plot { min-width: 0; width: 100%; }
+.portfolio-bar-key { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 0; margin: 0 0 8px; list-style: none; color: var(--text); font-size: .82rem; }
+.portfolio-bar-key li { display: flex; align-items: center; gap: 6px; }
+.portfolio-bar-key i { width: .7em; height: .7em; border-radius: 2px; }
+.portfolio-bar-plot small { display: block; color: var(--secondary); line-height: 1.5; }
+.portfolio-chart-values { margin-top: 9px; font-size: .82rem; }
+.portfolio-chart-values summary { cursor: pointer; color: var(--text); width: fit-content; }
+.portfolio-chart-values summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.portfolio-chart-values > div { margin-top: 8px; overflow-x: auto; }
+.portfolio-chart-values table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.portfolio-chart-values caption { text-align: left; font-weight: 600; }
+.portfolio-chart-values :is(th, td) { text-align: right; padding: 6px; border-bottom: 1px solid var(--border); }
+.portfolio-chart-values th:first-child { text-align: left; }

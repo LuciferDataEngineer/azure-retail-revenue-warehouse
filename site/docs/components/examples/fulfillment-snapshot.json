@@ -1,0 +1,60 @@
+{
+  "title": "Fulfillment review",
+  "filters": [
+    {
+      "id": "carrier",
+      "field": "carrier",
+      "label": "Carrier",
+      "visible": true
+    },
+    {
+      "id": "date",
+      "field": "date",
+      "label": "Date range",
+      "type": "date",
+      "mode": "through",
+      "visible": true
+    }
+  ],
+  "queries": {
+    "shipments": {
+      "source": {
+        "name": "Dispatch log",
+        "files": [
+          "fulfillment-snapshot.json"
+        ],
+        "reportingField": "date",
+        "metricDefinitions": [
+          {
+            "label": "On-time shipment rate",
+            "definition": "Share of shipped units that were on time.",
+            "formula": "sum(onTime) / sum(shipped)"
+          }
+        ],
+        "caveats": [
+          "Synthetic example with one record per carrier and day."
+        ]
+      },
+      "rows": [
+        {
+          "date": "2026-10-01",
+          "carrier": "Rail",
+          "shipped": 80,
+          "onTime": 60
+        },
+        {
+          "date": "2026-10-02",
+          "carrier": "Rail",
+          "shipped": 20,
+          "onTime": 20
+        },
+        {
+          "date": "2026-10-02",
+          "carrier": "Road",
+          "shipped": 10,
+          "onTime": 8
+        }
+      ]
+    }
+  }
+}

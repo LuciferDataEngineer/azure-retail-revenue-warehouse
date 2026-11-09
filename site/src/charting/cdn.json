@@ -1,0 +1,87 @@
+{
+  "baseUrl": "https://persistent.oaistatic.com/plugins/visualize/charts/data-analytics-plugin/1.2.1/charts/",
+  "buildId": "57515287d6adb6161c9f714f7d7d22497632ea800a917da78d081e531b34b352",
+  "chartApiVersion": 3,
+  "element": "element.js",
+  "entry": "runtime.js",
+  "library": {
+    "apiVersion": 1,
+    "assets": {
+      "chart.css": {
+        "bytes": 29477,
+        "sha256": "d30517584ce7368c60894db0c47cae9fa98edf33942f6b4256083860970f74ee"
+      },
+      "library.js": {
+        "bytes": 224957,
+        "sha256": "9e153b8735823267a6f082934979fbc37617628d63ebca0838301bb518ac772c"
+      }
+    },
+    "buildId": "7c9d589e176aeb448c19bab8509ec9274528915455809baf8d2e4d941db9ac85"
+  },
+  "preloads": {
+    "area": [
+      "runtime.js"
+    ],
+    "bar": [
+      "runtime.js"
+    ],
+    "boxPlot": [
+      "runtime.js"
+    ],
+    "funnel": [
+      "runtime.js"
+    ],
+    "heatmap": [
+      "runtime.js"
+    ],
+    "histogram": [
+      "runtime.js"
+    ],
+    "horizontalBar": [
+      "runtime.js"
+    ],
+    "horizontalStackedBar": [
+      "runtime.js"
+    ],
+    "horizontalStackedBar100": [
+      "runtime.js"
+    ],
+    "leaderboard": [
+      "runtime.js"
+    ],
+    "line": [
+      "runtime.js"
+    ],
+    "pie": [
+      "runtime.js"
+    ],
+    "rankedList": [
+      "runtime.js"
+    ],
+    "sankey": [
+      "runtime.js"
+    ],
+    "scatter": [
+      "runtime.js"
+    ],
+    "sparkline": [
+      "runtime.js"
+    ],
+    "stackedArea": [
+      "runtime.js"
+    ],
+    "stackedBar": [
+      "runtime.js"
+    ],
+    "stackedBar100": [
+      "runtime.js"
+    ],
+    "waterfall": [
+      "runtime.js"
+    ]
+  },
+  "release": "7233bf9b81847a06aa2c0b63a4e6b1f40189c1298c77061068f05b2ca3ac41bc",
+  "runtimeImports": {},
+  "schemaVersion": 1,
+  "version": "1.2.1"
+}

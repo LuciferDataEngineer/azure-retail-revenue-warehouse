@@ -1,0 +1,1088 @@
+{
+  "schema_version": "portfolio-dashboard-v1",
+  "snapshot_date": "2026-11-04",
+  "owner": "LuciferDataEngineer",
+  "is_live_feed": false,
+  "portfolio": {
+    "published_local": 2,
+    "cloud_deployed": 0,
+    "total_planned": 5,
+    "tests_passed": 85,
+    "source_rows": 10096687,
+    "projects": [
+      {
+        "id": "mobility",
+        "order": 1,
+        "title": "Urban Mobility Lakehouse",
+        "status": "published_local",
+        "pattern": "Medallion lakehouse",
+        "published_on": "2026-11-03",
+        "tests_passed": 43,
+        "cloud_status": "not_deployed",
+        "repo_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse",
+        "evidence_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/docs/VALIDATION.md",
+        "sources_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/docs/SOURCES.md",
+        "readme_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/README.md",
+        "azure_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/docs/AZURE.md",
+        "commit": "ce32b70f83d6e8593cc2e768ae5ff95b28888a7b",
+        "stack": [
+          "Python",
+          "DuckDB",
+          "PyArrow",
+          "SQL"
+        ],
+        "azure_target": [
+          "Data Factory",
+          "ADLS Gen2",
+          "Azure Databricks",
+          "Delta Lake",
+          "Unity Catalog",
+          "Databricks SQL",
+          "Azure Monitor"
+        ],
+        "summary": "Versioned taxi files become quality-checked Silver records and hourly Gold aggregates."
+      },
+      {
+        "id": "retail",
+        "order": 2,
+        "title": "Retail Revenue Warehouse",
+        "status": "published_local",
+        "pattern": "Scheduled batch ELT",
+        "published_on": "2026-11-04",
+        "tests_passed": 42,
+        "cloud_status": "not_deployed",
+        "repo_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse",
+        "evidence_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/docs/VALIDATION.md",
+        "sources_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/docs/SOURCES.md",
+        "readme_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/README.md",
+        "azure_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/docs/AZURE.md",
+        "commit": "06c9566611b3ff7c1dfd41c4b5abf21033db4499",
+        "stack": [
+          "Python",
+          "DuckDB",
+          "PyArrow",
+          "openpyxl",
+          "SQL"
+        ],
+        "azure_target": [
+          "Container Apps Job",
+          "ADLS Gen2",
+          "Data Factory",
+          "Synapse dedicated SQL pool",
+          "Azure Monitor"
+        ],
+        "summary": "Historical invoice lines become replay-safe daily deliveries and a dimensional warehouse."
+      },
+      {
+        "id": "energy",
+        "order": 3,
+        "title": "Live Energy Monitoring",
+        "status": "queued",
+        "cloud_status": "not_deployed",
+        "pattern": "Stateful event-time streaming",
+        "repo_url": null,
+        "tests_passed": null,
+        "azure_target": [
+          "Event Hubs",
+          "Stream Analytics",
+          "Azure Data Explorer",
+          "ADLS Gen2",
+          "Azure Monitor"
+        ],
+        "summary": "Planned: replay historical household measurements with explicitly synthetic delays and spikes."
+      },
+      {
+        "id": "orders",
+        "order": 4,
+        "title": "Order Integration Middleware",
+        "status": "queued",
+        "cloud_status": "not_deployed",
+        "pattern": "Event-driven messaging",
+        "repo_url": null,
+        "tests_passed": null,
+        "azure_target": [
+          "Event Grid",
+          "Azure Functions",
+          "Service Bus",
+          "Logic Apps",
+          "Table Storage"
+        ],
+        "summary": "Planned: version-aware fulfillment and audit consumers with controlled dead-letter replay."
+      },
+      {
+        "id": "inventory",
+        "order": 5,
+        "title": "Inventory Synchronization",
+        "status": "queued",
+        "cloud_status": "not_deployed",
+        "pattern": "Change-feed current-state projection",
+        "repo_url": null,
+        "tests_passed": null,
+        "azure_target": [
+          "Cosmos DB",
+          "Azure Functions",
+          "Azure SQL",
+          "App Service",
+          "Application Insights"
+        ],
+        "summary": "Planned: monotonic stock projections, soft deletes and outage reconciliation without full reloads."
+      }
+    ]
+  },
+  "retail": {
+    "title": "Retail Revenue Warehouse",
+    "currency": "GBP",
+    "unit": "transaction lines",
+    "period": {
+      "start": "2010-12-01",
+      "end": "2011-12-09",
+      "label": "Dec 2010 – 9 Dec 2011",
+      "historical": true,
+      "note": "December 2011 is partial through the ninth. One retailer; no present-day market inference."
+    },
+    "totals": {
+      "raw_rows": 541909,
+      "quarantined_rows": 0,
+      "accepted_rows": 541909,
+      "positive_sales": "10666684.54",
+      "negative_adjustments": "-918936.61",
+      "net_revenue": "9747747.93",
+      "zero_value_lines": 2519,
+      "unknown_customer_lines": 135080,
+      "candidate_duplicate_lines": 5268,
+      "cancellation_lines": 9288,
+      "cancellation_sign_mismatch_lines": 1336,
+      "negative_price_lines": 2,
+      "positive_sales_gbp": "10666684.54",
+      "negative_adjustments_gbp": "-918936.61",
+      "net_revenue_gbp": "9747747.93",
+      "business_dates": 305,
+      "countries": 38,
+      "missing_description_lines": 1454
+    },
+    "monthly": [
+      {
+        "month": "2010-12",
+        "accepted_rows": 42481,
+        "observed_business_dates": 20,
+        "positive_sales_gbp": "823746.14",
+        "negative_adjustments_gbp": "-74789.12",
+        "net_revenue_gbp": "748957.02",
+        "partial": false
+      },
+      {
+        "month": "2011-01",
+        "accepted_rows": 35147,
+        "observed_business_dates": 24,
+        "positive_sales_gbp": "691364.56",
+        "negative_adjustments_gbp": "-131364.30",
+        "net_revenue_gbp": "560000.26",
+        "partial": false
+      },
+      {
+        "month": "2011-02",
+        "accepted_rows": 27707,
+        "observed_business_dates": 24,
+        "positive_sales_gbp": "523631.89",
+        "negative_adjustments_gbp": "-25569.24",
+        "net_revenue_gbp": "498062.65",
+        "partial": false
+      },
+      {
+        "month": "2011-03",
+        "accepted_rows": 36748,
+        "observed_business_dates": 27,
+        "positive_sales_gbp": "717639.36",
+        "negative_adjustments_gbp": "-34372.28",
+        "net_revenue_gbp": "683267.08",
+        "partial": false
+      },
+      {
+        "month": "2011-04",
+        "accepted_rows": 29916,
+        "observed_business_dates": 21,
+        "positive_sales_gbp": "537808.62",
+        "negative_adjustments_gbp": "-44601.50",
+        "net_revenue_gbp": "493207.12",
+        "partial": false
+      },
+      {
+        "month": "2011-05",
+        "accepted_rows": 37030,
+        "observed_business_dates": 25,
+        "positive_sales_gbp": "770536.02",
+        "negative_adjustments_gbp": "-47202.51",
+        "net_revenue_gbp": "723333.51",
+        "partial": false
+      },
+      {
+        "month": "2011-06",
+        "accepted_rows": 36874,
+        "observed_business_dates": 26,
+        "positive_sales_gbp": "761739.90",
+        "negative_adjustments_gbp": "-70616.78",
+        "net_revenue_gbp": "691123.12",
+        "partial": false
+      },
+      {
+        "month": "2011-07",
+        "accepted_rows": 39518,
+        "observed_business_dates": 26,
+        "positive_sales_gbp": "719221.19",
+        "negative_adjustments_gbp": "-37921.08",
+        "net_revenue_gbp": "681300.11",
+        "partial": false
+      },
+      {
+        "month": "2011-08",
+        "accepted_rows": 35284,
+        "observed_business_dates": 26,
+        "positive_sales_gbp": "759138.38",
+        "negative_adjustments_gbp": "-76457.87",
+        "net_revenue_gbp": "682680.51",
+        "partial": false
+      },
+      {
+        "month": "2011-09",
+        "accepted_rows": 50226,
+        "observed_business_dates": 26,
+        "positive_sales_gbp": "1058590.17",
+        "negative_adjustments_gbp": "-38902.55",
+        "net_revenue_gbp": "1019687.62",
+        "partial": false
+      },
+      {
+        "month": "2011-10",
+        "accepted_rows": 60742,
+        "observed_business_dates": 26,
+        "positive_sales_gbp": "1154979.30",
+        "negative_adjustments_gbp": "-84274.63",
+        "net_revenue_gbp": "1070704.67",
+        "partial": false
+      },
+      {
+        "month": "2011-11",
+        "accepted_rows": 84711,
+        "observed_business_dates": 26,
+        "positive_sales_gbp": "1509496.33",
+        "negative_adjustments_gbp": "-47740.08",
+        "net_revenue_gbp": "1461756.25",
+        "partial": false
+      },
+      {
+        "month": "2011-12",
+        "accepted_rows": 25525,
+        "observed_business_dates": 8,
+        "positive_sales_gbp": "638792.68",
+        "negative_adjustments_gbp": "-205124.67",
+        "net_revenue_gbp": "433668.01",
+        "partial": true
+      }
+    ],
+    "countries": [
+      {
+        "country": "United Kingdom",
+        "accepted_rows": 495478,
+        "net_revenue_gbp": "8187806.36",
+        "signed_adjustments_gbp": "-837415.72"
+      },
+      {
+        "country": "Netherlands",
+        "accepted_rows": 2371,
+        "net_revenue_gbp": "284661.54",
+        "signed_adjustments_gbp": "-784.80"
+      },
+      {
+        "country": "EIRE",
+        "accepted_rows": 8196,
+        "net_revenue_gbp": "263276.82",
+        "signed_adjustments_gbp": "-20177.14"
+      },
+      {
+        "country": "Germany",
+        "accepted_rows": 9495,
+        "net_revenue_gbp": "221698.21",
+        "signed_adjustments_gbp": "-7168.93"
+      },
+      {
+        "country": "France",
+        "accepted_rows": 8557,
+        "net_revenue_gbp": "197403.90",
+        "signed_adjustments_gbp": "-12311.21"
+      },
+      {
+        "country": "Australia",
+        "accepted_rows": 1259,
+        "net_revenue_gbp": "137077.27",
+        "signed_adjustments_gbp": "-1444.04"
+      },
+      {
+        "country": "Switzerland",
+        "accepted_rows": 2002,
+        "net_revenue_gbp": "56385.35",
+        "signed_adjustments_gbp": "-704.55"
+      },
+      {
+        "country": "Spain",
+        "accepted_rows": 2533,
+        "net_revenue_gbp": "54774.58",
+        "signed_adjustments_gbp": "-6802.53"
+      },
+      {
+        "country": "Belgium",
+        "accepted_rows": 2069,
+        "net_revenue_gbp": "40910.96",
+        "signed_adjustments_gbp": "-285.38"
+      },
+      {
+        "country": "Sweden",
+        "accepted_rows": 462,
+        "net_revenue_gbp": "36595.91",
+        "signed_adjustments_gbp": "-1782.42"
+      },
+      {
+        "country": "Japan",
+        "accepted_rows": 358,
+        "net_revenue_gbp": "35340.62",
+        "signed_adjustments_gbp": "-2075.75"
+      },
+      {
+        "country": "Norway",
+        "accepted_rows": 1086,
+        "net_revenue_gbp": "35163.46",
+        "signed_adjustments_gbp": "-1001.98"
+      },
+      {
+        "country": "Portugal",
+        "accepted_rows": 1519,
+        "net_revenue_gbp": "29367.02",
+        "signed_adjustments_gbp": "-4380.08"
+      },
+      {
+        "country": "Finland",
+        "accepted_rows": 695,
+        "net_revenue_gbp": "22326.74",
+        "signed_adjustments_gbp": "-219.34"
+      },
+      {
+        "country": "Channel Islands",
+        "accepted_rows": 758,
+        "net_revenue_gbp": "20086.29",
+        "signed_adjustments_gbp": "-364.15"
+      },
+      {
+        "country": "Denmark",
+        "accepted_rows": 389,
+        "net_revenue_gbp": "18768.14",
+        "signed_adjustments_gbp": "-187.20"
+      },
+      {
+        "country": "Italy",
+        "accepted_rows": 803,
+        "net_revenue_gbp": "16890.51",
+        "signed_adjustments_gbp": "-592.73"
+      },
+      {
+        "country": "Cyprus",
+        "accepted_rows": 622,
+        "net_revenue_gbp": "12946.29",
+        "signed_adjustments_gbp": "-644.09"
+      },
+      {
+        "country": "Austria",
+        "accepted_rows": 401,
+        "net_revenue_gbp": "10154.32",
+        "signed_adjustments_gbp": "-44.36"
+      },
+      {
+        "country": "Hong Kong",
+        "accepted_rows": 288,
+        "net_revenue_gbp": "10117.04",
+        "signed_adjustments_gbp": "-5574.76"
+      },
+      {
+        "country": "Singapore",
+        "accepted_rows": 229,
+        "net_revenue_gbp": "9120.39",
+        "signed_adjustments_gbp": "-12158.90"
+      },
+      {
+        "country": "Israel",
+        "accepted_rows": 297,
+        "net_revenue_gbp": "7907.82",
+        "signed_adjustments_gbp": "-227.44"
+      },
+      {
+        "country": "Poland",
+        "accepted_rows": 341,
+        "net_revenue_gbp": "7213.14",
+        "signed_adjustments_gbp": "-121.51"
+      },
+      {
+        "country": "Unspecified",
+        "accepted_rows": 446,
+        "net_revenue_gbp": "4749.79",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "Greece",
+        "accepted_rows": 146,
+        "net_revenue_gbp": "4710.52",
+        "signed_adjustments_gbp": "-50.00"
+      },
+      {
+        "country": "Iceland",
+        "accepted_rows": 182,
+        "net_revenue_gbp": "4310.00",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "Canada",
+        "accepted_rows": 151,
+        "net_revenue_gbp": "3666.38",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "Malta",
+        "accepted_rows": 127,
+        "net_revenue_gbp": "2505.47",
+        "signed_adjustments_gbp": "-220.12"
+      },
+      {
+        "country": "United Arab Emirates",
+        "accepted_rows": 68,
+        "net_revenue_gbp": "1902.28",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "USA",
+        "accepted_rows": 291,
+        "net_revenue_gbp": "1730.92",
+        "signed_adjustments_gbp": "-1849.47"
+      },
+      {
+        "country": "Lebanon",
+        "accepted_rows": 45,
+        "net_revenue_gbp": "1693.88",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "Lithuania",
+        "accepted_rows": 35,
+        "net_revenue_gbp": "1661.06",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "European Community",
+        "accepted_rows": 61,
+        "net_revenue_gbp": "1291.75",
+        "signed_adjustments_gbp": "-8.50"
+      },
+      {
+        "country": "Brazil",
+        "accepted_rows": 32,
+        "net_revenue_gbp": "1143.60",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "RSA",
+        "accepted_rows": 58,
+        "net_revenue_gbp": "1002.31",
+        "signed_adjustments_gbp": "0.00"
+      },
+      {
+        "country": "Czech Republic",
+        "accepted_rows": 30,
+        "net_revenue_gbp": "707.72",
+        "signed_adjustments_gbp": "-119.02"
+      },
+      {
+        "country": "Bahrain",
+        "accepted_rows": 19,
+        "net_revenue_gbp": "548.40",
+        "signed_adjustments_gbp": "-205.74"
+      },
+      {
+        "country": "Saudi Arabia",
+        "accepted_rows": 10,
+        "net_revenue_gbp": "131.17",
+        "signed_adjustments_gbp": "-14.75"
+      }
+    ],
+    "top_products": [
+      {
+        "stock_code": "DOT",
+        "observed_description_versions": 2,
+        "signed_units": 1707,
+        "signed_revenue_gbp": "206245.48"
+      },
+      {
+        "stock_code": "22423",
+        "observed_description_versions": 3,
+        "signed_units": 12980,
+        "signed_revenue_gbp": "164762.19"
+      },
+      {
+        "stock_code": "47566",
+        "observed_description_versions": 1,
+        "signed_units": 18022,
+        "signed_revenue_gbp": "98302.98"
+      },
+      {
+        "stock_code": "85123A",
+        "observed_description_versions": 4,
+        "signed_units": 38830,
+        "signed_revenue_gbp": "97894.50"
+      },
+      {
+        "stock_code": "85099B",
+        "observed_description_versions": 1,
+        "signed_units": 47363,
+        "signed_revenue_gbp": "92356.03"
+      },
+      {
+        "stock_code": "23084",
+        "observed_description_versions": 8,
+        "signed_units": 30646,
+        "signed_revenue_gbp": "66756.59"
+      },
+      {
+        "stock_code": "POST",
+        "observed_description_versions": 2,
+        "signed_units": 6353,
+        "signed_revenue_gbp": "66230.64"
+      },
+      {
+        "stock_code": "22086",
+        "observed_description_versions": 1,
+        "signed_units": 18902,
+        "signed_revenue_gbp": "63791.94"
+      },
+      {
+        "stock_code": "84879",
+        "observed_description_versions": 2,
+        "signed_units": 36221,
+        "signed_revenue_gbp": "58959.73"
+      },
+      {
+        "stock_code": "79321",
+        "observed_description_versions": 2,
+        "signed_units": 10343,
+        "signed_revenue_gbp": "53768.06"
+      },
+      {
+        "stock_code": "22502",
+        "observed_description_versions": 4,
+        "signed_units": 1873,
+        "signed_revenue_gbp": "51041.37"
+      },
+      {
+        "stock_code": "22197",
+        "observed_description_versions": 2,
+        "signed_units": 56450,
+        "signed_revenue_gbp": "50987.47"
+      },
+      {
+        "stock_code": "23298",
+        "observed_description_versions": 2,
+        "signed_units": 8534,
+        "signed_revenue_gbp": "42700.02"
+      },
+      {
+        "stock_code": "22386",
+        "observed_description_versions": 1,
+        "signed_units": 21009,
+        "signed_revenue_gbp": "41619.66"
+      },
+      {
+        "stock_code": "23203",
+        "observed_description_versions": 4,
+        "signed_units": 20013,
+        "signed_revenue_gbp": "40991.38"
+      },
+      {
+        "stock_code": "21137",
+        "observed_description_versions": 2,
+        "signed_units": 11616,
+        "signed_revenue_gbp": "40596.96"
+      },
+      {
+        "stock_code": "22720",
+        "observed_description_versions": 2,
+        "signed_units": 7286,
+        "signed_revenue_gbp": "37413.44"
+      },
+      {
+        "stock_code": "23284",
+        "observed_description_versions": 2,
+        "signed_units": 5264,
+        "signed_revenue_gbp": "36565.39"
+      },
+      {
+        "stock_code": "22960",
+        "observed_description_versions": 1,
+        "signed_units": 8470,
+        "signed_revenue_gbp": "36116.09"
+      },
+      {
+        "stock_code": "82484",
+        "observed_description_versions": 1,
+        "signed_units": 5996,
+        "signed_revenue_gbp": "35859.27"
+      }
+    ],
+    "quality": [
+      {
+        "key": "unknown_customer_lines",
+        "label": "Missing customer ID",
+        "records": 135080,
+        "kind": "retained_warning"
+      },
+      {
+        "key": "candidate_duplicate_lines",
+        "label": "Candidate duplicate lines",
+        "records": 5268,
+        "kind": "retained_warning"
+      },
+      {
+        "key": "zero_value_lines",
+        "label": "Zero-value lines",
+        "records": 2519,
+        "kind": "retained_warning"
+      },
+      {
+        "key": "cancellation_sign_mismatch_lines",
+        "label": "Cancellation / quantity-sign mismatch",
+        "records": 1336,
+        "kind": "retained_warning"
+      },
+      {
+        "key": "negative_price_lines",
+        "label": "Negative-price lines",
+        "records": 2,
+        "kind": "retained_warning"
+      }
+    ],
+    "view_scope": {
+      "monthly": "All accepted lines by invoice month; last month is partial.",
+      "countries": "All accepted lines across the complete source period; independent of month selection.",
+      "top_products": "Top 20 stock codes by full-period signed amount; includes administrative codes such as DOT and POST.",
+      "quality": "Overlapping retained warning counts, not rejected rows and not additive."
+    },
+    "definitions": {
+      "net_revenue_gbp": "Sum of signed quantity × four-decimal unit price, rounded to pennies per line; not audited revenue, cash or profit.",
+      "negative_adjustments_gbp": "Sum of negative rounded line amounts; no inferred links to original purchases.",
+      "unknown_customer_lines": "Accepted lines whose customer identifier is absent; retained using an Unknown dimension member.",
+      "candidate_duplicate_lines": "Additional occurrences of identical modeled values; retained, not proven duplicate business events."
+    },
+    "validation": {
+      "tests_passed": 42,
+      "pipeline_tests": 37,
+      "adapter_tests": 5,
+      "source_rows_reconciled": 541909,
+      "independent_daily_reconciliations": 305,
+      "replayed_dates": 305,
+      "dimension_orphans": 0,
+      "business_state_unchanged_on_replay": true,
+      "cloud_deployed": false,
+      "observed_on": "2026-11-04",
+      "repo_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse",
+      "evidence_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/docs/VALIDATION.md",
+      "sources_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/docs/SOURCES.md",
+      "readme_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/README.md",
+      "azure_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/docs/AZURE.md",
+      "commit": "06c9566611b3ff7c1dfd41c4b5abf21033db4499",
+      "ci_url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/actions/runs/41794551121",
+      "ci_status": "success"
+    },
+    "sources": [
+      {
+        "title": "UCI Online Retail",
+        "url": "https://archive.ics.uci.edu/dataset/352/online+retail",
+        "citation": "Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository. DOI: 10.24432/C5BW33.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "accessed_on": "2026-11-04",
+        "transformations": "Workbook normalized into daily deliveries and signed line, month, country and product aggregates."
+      }
+    ]
+  },
+  "mobility": {
+    "title": "Urban Mobility Lakehouse",
+    "currency": "USD",
+    "unit": "trip records",
+    "period": {
+      "start": "2024-01-01",
+      "end": "2024-03-31",
+      "label": "Jan – Mar 2024",
+      "historical": true,
+      "note": "Three historical yellow-taxi source months; no live traffic feed or congestion-pricing impact estimate."
+    },
+    "totals": {
+      "raw_rows": 9554778,
+      "accepted_rows": 9551921,
+      "quarantined_rows": 2857,
+      "candidate_duplicate_rows": 1,
+      "negative_adjustment_rows": 136895,
+      "ordinary_records": 9415026,
+      "signed_charges_usd": "256598279.23",
+      "signed_fares_usd": "175011219.09",
+      "ordinary_charges_usd": "259530330.14",
+      "adjustment_charges_usd": "-2932050.91"
+    },
+    "monthly": [
+      {
+        "month": "2024-01",
+        "raw_rows": 2964624,
+        "accepted_rows": 2963736,
+        "quarantined_rows": 888,
+        "ordinary_records": 2926173,
+        "negative_adjustment_rows": 37563,
+        "ordinary_charges_usd": "80302017.00",
+        "adjustment_charges_usd": "-888085.09",
+        "signed_charges_usd": "79413931.91",
+        "signed_fares_usd": "53844071.32",
+        "partial": false
+      },
+      {
+        "month": "2024-02",
+        "raw_rows": 3007526,
+        "accepted_rows": 3006708,
+        "quarantined_rows": 818,
+        "ordinary_records": 2965976,
+        "negative_adjustment_rows": 40732,
+        "ordinary_charges_usd": "80960586.22",
+        "adjustment_charges_usd": "-907337.10",
+        "signed_charges_usd": "80053249.12",
+        "signed_fares_usd": "54261154.28",
+        "partial": false
+      },
+      {
+        "month": "2024-03",
+        "raw_rows": 3582628,
+        "accepted_rows": 3581477,
+        "quarantined_rows": 1151,
+        "ordinary_records": 3522877,
+        "negative_adjustment_rows": 58600,
+        "ordinary_charges_usd": "98267726.92",
+        "adjustment_charges_usd": "-1136628.72",
+        "signed_charges_usd": "97131098.20",
+        "signed_fares_usd": "66905993.49",
+        "partial": false
+      }
+    ],
+    "hourly": [
+      {
+        "hour": 0,
+        "records": 264103,
+        "mean_civil_duration_seconds": 887.4570186631731
+      },
+      {
+        "hour": 1,
+        "records": 177642,
+        "mean_civil_duration_seconds": 838.6222571238784
+      },
+      {
+        "hour": 2,
+        "records": 116728,
+        "mean_civil_duration_seconds": 779.2069854704955
+      },
+      {
+        "hour": 3,
+        "records": 80200,
+        "mean_civil_duration_seconds": 789.3740399002494
+      },
+      {
+        "hour": 4,
+        "records": 56435,
+        "mean_civil_duration_seconds": 912.0231948259059
+      },
+      {
+        "hour": 5,
+        "records": 58490,
+        "mean_civil_duration_seconds": 990.5558557018294
+      },
+      {
+        "hour": 6,
+        "records": 129882,
+        "mean_civil_duration_seconds": 985.7750034646833
+      },
+      {
+        "hour": 7,
+        "records": 261415,
+        "mean_civil_duration_seconds": 941.5390126809862
+      },
+      {
+        "hour": 8,
+        "records": 367422,
+        "mean_civil_duration_seconds": 942.7017108393073
+      },
+      {
+        "hour": 9,
+        "records": 400729,
+        "mean_civil_duration_seconds": 952.4734097108021
+      },
+      {
+        "hour": 10,
+        "records": 424066,
+        "mean_civil_duration_seconds": 977.0287030792376
+      },
+      {
+        "hour": 11,
+        "records": 457259,
+        "mean_civil_duration_seconds": 981.493619589773
+      },
+      {
+        "hour": 12,
+        "records": 502245,
+        "mean_civil_duration_seconds": 1000.4916146502205
+      },
+      {
+        "hour": 13,
+        "records": 518251,
+        "mean_civil_duration_seconds": 1037.1051093003198
+      },
+      {
+        "hour": 14,
+        "records": 555179,
+        "mean_civil_duration_seconds": 1099.8960767608285
+      },
+      {
+        "hour": 15,
+        "records": 572749,
+        "mean_civil_duration_seconds": 1120.4909235982952
+      },
+      {
+        "hour": 16,
+        "records": 584199,
+        "mean_civil_duration_seconds": 1111.6285392477564
+      },
+      {
+        "hour": 17,
+        "records": 644988,
+        "mean_civil_duration_seconds": 1042.201290566646
+      },
+      {
+        "hour": 18,
+        "records": 681097,
+        "mean_civil_duration_seconds": 941.0851743584248
+      },
+      {
+        "hour": 19,
+        "records": 604826,
+        "mean_civil_duration_seconds": 895.6243845337336
+      },
+      {
+        "hour": 20,
+        "records": 543114,
+        "mean_civil_duration_seconds": 868.5870388168967
+      },
+      {
+        "hour": 21,
+        "records": 542913,
+        "mean_civil_duration_seconds": 865.5539580006373
+      },
+      {
+        "hour": 22,
+        "records": 492701,
+        "mean_civil_duration_seconds": 895.2164314665487
+      },
+      {
+        "hour": 23,
+        "records": 378393,
+        "mean_civil_duration_seconds": 918.1148911317069
+      }
+    ],
+    "top_zones": [
+      {
+        "zone_id": 161,
+        "zone": "Midtown Center",
+        "borough": "Manhattan",
+        "records": 447728,
+        "signed_charges_usd": "10926519.44"
+      },
+      {
+        "zone_id": 237,
+        "zone": "Upper East Side South",
+        "borough": "Manhattan",
+        "records": 434149,
+        "signed_charges_usd": "8768015.28"
+      },
+      {
+        "zone_id": 132,
+        "zone": "JFK Airport",
+        "borough": "Queens",
+        "records": 416288,
+        "signed_charges_usd": "33869196.94"
+      },
+      {
+        "zone_id": 236,
+        "zone": "Upper East Side North",
+        "borough": "Manhattan",
+        "records": 412314,
+        "signed_charges_usd": "8533255.97"
+      },
+      {
+        "zone_id": 162,
+        "zone": "Midtown East",
+        "borough": "Manhattan",
+        "records": 332155,
+        "signed_charges_usd": "7905895.30"
+      },
+      {
+        "zone_id": 230,
+        "zone": "Times Sq/Theatre District",
+        "borough": "Manhattan",
+        "records": 325593,
+        "signed_charges_usd": "8957291.58"
+      },
+      {
+        "zone_id": 186,
+        "zone": "Penn Station/Madison Sq West",
+        "borough": "Manhattan",
+        "records": 315427,
+        "signed_charges_usd": "7774849.34"
+      },
+      {
+        "zone_id": 142,
+        "zone": "Lincoln Square East",
+        "borough": "Manhattan",
+        "records": 312276,
+        "signed_charges_usd": "6752579.71"
+      },
+      {
+        "zone_id": 138,
+        "zone": "LaGuardia Airport",
+        "borough": "Queens",
+        "records": 281202,
+        "signed_charges_usd": "18821889.97"
+      },
+      {
+        "zone_id": 239,
+        "zone": "Upper West Side South",
+        "borough": "Manhattan",
+        "records": 278423,
+        "signed_charges_usd": "6011660.82"
+      }
+    ],
+    "quality": [
+      {
+        "key": "nonpositive_duration",
+        "label": "Nonpositive duration",
+        "records": 2801,
+        "kind": "quarantine_reason"
+      },
+      {
+        "key": "pickup_outside_source_month",
+        "label": "Pickup outside source month",
+        "records": 56,
+        "kind": "quarantine_reason"
+      }
+    ],
+    "view_scope": {
+      "monthly": "All accepted records, with signed adjustments retained separately.",
+      "hourly": "Ordinary records only across Jan–Mar 2024: neither original fare nor total was negative. Recorded NYC civil hour, not UTC.",
+      "top_zones": "Top 10 by ordinary-record count across Jan–Mar 2024. Names use a November 2026 lookup snapshot.",
+      "quality": "Quarantine reason occurrences; a record can have multiple reasons. Do not infer mutually exclusive categories."
+    },
+    "definitions": {
+      "signed_charges_usd": "Sum of recorded total_amount rounded to cents; excludes cash tips and does not measure profit or driver take-home pay.",
+      "ordinary_records": "Accepted rows with neither original fare nor original total negative; not necessarily paid fares.",
+      "negative_adjustment_rows": "Accepted records with either original fare or total negative; no cause inferred.",
+      "mean_civil_duration_seconds": "Mean dropoff-minus-pickup wall-clock seconds; not precise elapsed time across daylight-saving transitions."
+    },
+    "validation": {
+      "tests_passed": 43,
+      "pipeline_tests": 34,
+      "parity_tests": 1,
+      "cloud_contract_tests": 8,
+      "physical_row_conservation": true,
+      "signed_decimal_reconciliation": true,
+      "business_state_unchanged_on_replay": true,
+      "replayed_source_files": 3,
+      "zone_join_unmatched_groups": 0,
+      "cloud_deployed": false,
+      "observed_on": "2026-11-03",
+      "repo_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse",
+      "evidence_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/docs/VALIDATION.md",
+      "sources_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/docs/SOURCES.md",
+      "readme_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/README.md",
+      "azure_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/docs/AZURE.md",
+      "commit": "ce32b70f83d6e8593cc2e768ae5ff95b28888a7b",
+      "ci_url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/actions/runs/41535530637",
+      "ci_status": "success"
+    },
+    "sources": [
+      {
+        "title": "NYC TLC yellow-taxi trip records",
+        "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+        "citation": "NYC Taxi & Limousine Commission / NYC Open Data, January–March 2024 yellow-taxi records.",
+        "license": "NYC Open Data reuse terms; no CC licence asserted",
+        "license_url": "https://data.cityofnewyork.us/stories/s/Terms-of-Use/k9k7-3cje",
+        "accessed_on": "2026-11-03",
+        "transformations": "Quality-checked records become signed monthly and ordinary-record civil-hour/zone aggregates."
+      }
+    ]
+  },
+  "provenance": {
+    "snapshot_policy": "Pinned published aggregate evidence. No row-level records, live feed, Azure runtime or private data.",
+    "inputs": [
+      {
+        "project": "retail",
+        "file": "examples/report-2026-11-04.json",
+        "commit": "06c9566611b3ff7c1dfd41c4b5abf21033db4499",
+        "sha256": "2e220f67b96f49486ef77d6c933d9a625cd1313a4ab67783cec5408fbc30f5e1",
+        "bytes": 3484,
+        "raw_url": "https://raw.githubusercontent.com/LuciferDataEngineer/azure-retail-revenue-warehouse/06c9566611b3ff7c1dfd41c4b5abf21033db4499/examples/report-2026-11-04.json",
+        "url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/examples/report-2026-11-04.json"
+      },
+      {
+        "project": "retail",
+        "file": "examples/sql-results-2026-11-04.json",
+        "commit": "06c9566611b3ff7c1dfd41c4b5abf21033db4499",
+        "sha256": "ecd68df86d41eb8299e0a28c9d78abc9c9c1eda05fdcc49759cc3cdad64b9a5e",
+        "bytes": 134366,
+        "raw_url": "https://raw.githubusercontent.com/LuciferDataEngineer/azure-retail-revenue-warehouse/06c9566611b3ff7c1dfd41c4b5abf21033db4499/examples/sql-results-2026-11-04.json",
+        "url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/examples/sql-results-2026-11-04.json"
+      },
+      {
+        "project": "retail",
+        "file": "examples/live-validation-2026-11-04.json",
+        "commit": "06c9566611b3ff7c1dfd41c4b5abf21033db4499",
+        "sha256": "00ebb265c974d3fdadc5aaa89f241a1f79099816320b1ed371947ba8fb9d06d4",
+        "bytes": 2041,
+        "raw_url": "https://raw.githubusercontent.com/LuciferDataEngineer/azure-retail-revenue-warehouse/06c9566611b3ff7c1dfd41c4b5abf21033db4499/examples/live-validation-2026-11-04.json",
+        "url": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/examples/live-validation-2026-11-04.json"
+      },
+      {
+        "project": "mobility",
+        "file": "examples/report-2026-11-03.json",
+        "commit": "ce32b70f83d6e8593cc2e768ae5ff95b28888a7b",
+        "sha256": "1acfc1a7ccd715d7a9858e9276ba0d29e2fdbe9152b53b01a2ad5db56db2f0c5",
+        "bytes": 4316,
+        "raw_url": "https://raw.githubusercontent.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/examples/report-2026-11-03.json",
+        "url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/examples/report-2026-11-03.json"
+      },
+      {
+        "project": "mobility",
+        "file": "examples/sql-results-2026-11-03.json",
+        "commit": "ce32b70f83d6e8593cc2e768ae5ff95b28888a7b",
+        "sha256": "159f76f088388756e8768b4e01bce175ec1ad4ad955d4a798268cea8e6bc2927",
+        "bytes": 11169,
+        "raw_url": "https://raw.githubusercontent.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/examples/sql-results-2026-11-03.json",
+        "url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/examples/sql-results-2026-11-03.json"
+      },
+      {
+        "project": "mobility",
+        "file": "examples/live-validation-2026-11-03.json",
+        "commit": "ce32b70f83d6e8593cc2e768ae5ff95b28888a7b",
+        "sha256": "149dc3b2241a59704e132231345ebf8c47ef16a2b0a61d9eab0c07bb346282b2",
+        "bytes": 2318,
+        "raw_url": "https://raw.githubusercontent.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/examples/live-validation-2026-11-03.json",
+        "url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/examples/live-validation-2026-11-03.json"
+      }
+    ],
+    "cloud_boundary": "Both implementations passed local checks. Azure deployment, security, performance and recovery have not been validated.",
+    "roadmap_as_of": "2026-11-04"
+  }
+}

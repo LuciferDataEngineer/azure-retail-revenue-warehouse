@@ -1,5 +1,7 @@
 # Retail Revenue Warehouse
 
+[Explore retail and mobility results on GitHub Pages](https://luciferdataengineer.github.io/azure-retail-revenue-warehouse/). Select a source month to inspect signed sales or taxi charges, or open the portfolio tab for the project roadmap and validation evidence.
+
 **A locally tested daily retail ELT implementation with an Azure Synapse dedicated-pool target.** A historical workbook becomes traceable daily Parquet deliveries, a dimensional warehouse and signed sales metrics. Repeat deliveries leave facts unchanged; a corrected delivery replaces only its selected business date.
 
 > **Delivery stage:** the local Python/DuckDB pipeline is runnable without a cloud subscription. Azure infrastructure, producer and SQL assets are included, but Azure deployment, security, performance and recovery are **not validated**. This repository does not claim a production deployment. Actual checks and data results are recorded in [VALIDATION.md](docs/VALIDATION.md).
