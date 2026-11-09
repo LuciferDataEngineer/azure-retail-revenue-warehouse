@@ -1,6 +1,6 @@
 {
   "schema_version": "portfolio-dashboard-v1",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-09",
   "owner": "LuciferDataEngineer",
   "is_live_feed": false,
   "portfolio": {
@@ -77,7 +77,7 @@
         "id": "energy",
         "order": 3,
         "title": "Live Energy Monitoring",
-        "status": "queued",
+        "status": "in_progress",
         "cloud_status": "not_deployed",
         "pattern": "Stateful event-time streaming",
         "repo_url": null,
@@ -1082,7 +1082,7 @@
         "url": "https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/blob/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b/examples/live-validation-2026-11-03.json"
       }
     ],
-    "cloud_boundary": "Both implementations passed local checks. Azure deployment, security, performance and recovery have not been validated.",
-    "roadmap_as_of": "2026-11-04"
+    "cloud_boundary": "The published implementations have local validation evidence. Azure deployment and cloud validation remain pending.",
+    "roadmap_as_of": "2026-11-09"
   }
 }

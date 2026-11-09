@@ -2,6 +2,7 @@
 import argparse
 import json
 from datetime import datetime, timezone
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,14 +54,14 @@ queries['portfolio'] = {
         'period': 'As of ' + bundle['snapshot_date'],
         'tables': [{'name': p['title'], 'href': p['evidence_url']}
                    for p in bundle['portfolio']['projects'] if p.get('evidence_url')],
-        'caveats': ['Published locally is distinct from cloud validated. Queued projects have no implemented dashboard or repository yet.'],
-        'metricDefinitions': [{'label': 'Local tests', 'definition': '42 retail tests plus 43 mobility tests; a count of test cases, not a coverage percentage or cloud validation.'}],
-        'evidenceFlow': [{'title': 'Delivery snapshot', 'detail': 'The five-project backlog is captured in scripts/build_dashboard_data.py. Only the two published implementations contribute test counts.'}],
+        'caveats': ['Published projects have local validation evidence. Cloud deployment remains pending.'],
+        'metricDefinitions': [{'label': 'Local tests', 'definition': 'Sum of the observed local test counts in the published project records.'}],
+        'evidenceFlow': [{'title': 'Delivery snapshot', 'detail': 'The source-controlled roadmap and pinned publication receipts determine project status. Only published implementations contribute local test counts.'}],
     },
 }
 snapshot = {
     'id': previous['id'], 'surface': 'dashboard', 'title': 'Data engineering portfolio',
-    'generatedAt': previous['generatedAt'] if args.check else datetime.now(timezone.utc).isoformat(), 'buildStatus': 'complete',
+    'generatedAt': previous['generatedAt'], 'buildStatus': 'complete',
     'filters': [], 'queries': queries,
     'portfolioSummary': bundle['portfolio'],
     'projectMetadata': {k: {v: bundle[k][v] for v in ('title', 'period', 'validation', 'sources', 'view_scope')}
@@ -70,6 +71,9 @@ snapshot = {
 if args.check:
     if previous != snapshot:
         raise SystemExit('Displayed snapshot differs from the reviewed bundle. Regenerate it before deploying.')
-else:
-    destination.write_text(json.dumps(snapshot, indent=2) + '\n')
+elif previous != snapshot:
+    snapshot['generatedAt'] = datetime.now(timezone.utc).isoformat()
+    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=destination.parent, delete=False) as temporary:
+        temporary.write(json.dumps(snapshot, indent=2) + '\n')
+    Path(temporary.name).replace(destination)
 print(f'Bound {len(queries)} reviewed queries; preserved dashboard identity {snapshot["id"]}.')

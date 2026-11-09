@@ -7,12 +7,18 @@ on:
       - 'site/**'
       - 'scripts/build_dashboard_data.py'
       - 'scripts/build_dashboard_snapshot.py'
+      - 'scripts/dashboard_releases.py'
+      - 'scripts/register_dashboard_release.py'
+      - 'tests/test_dashboard_publication.py'
       - '.github/workflows/pages.yml'
   pull_request:
     paths:
       - 'site/**'
       - 'scripts/build_dashboard_data.py'
       - 'scripts/build_dashboard_snapshot.py'
+      - 'scripts/dashboard_releases.py'
+      - 'scripts/register_dashboard_release.py'
+      - 'tests/test_dashboard_publication.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -42,8 +48,11 @@ jobs:
           cache-dependency-path: site/package-lock.json
       - name: Verify the published aggregate snapshot
         run: |
-          python3 ../scripts/build_dashboard_data.py --validate-only
+          python3 ../scripts/build_dashboard_data.py --validate-only --verify-receipts
           python3 ../scripts/build_dashboard_snapshot.py --check
+      - name: Test release registration and replay
+        working-directory: .
+        run: python3 -m unittest tests.test_dashboard_publication
       - name: Install locked dashboard dependencies
         run: npm ci
       - name: Build static dashboard

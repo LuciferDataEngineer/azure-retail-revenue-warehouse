@@ -2,7 +2,7 @@
   "id": "dashboard:ca724e9d-2f85-4d14-a337-61970a18ffde",
   "surface": "dashboard",
   "title": "Data engineering portfolio",
-  "generatedAt": "2026-11-09T09:31:08.583458+00:00",
+  "generatedAt": "2026-11-09T09:47:49.454468+00:00",
   "buildStatus": "complete",
   "filters": [],
   "queries": {
@@ -1928,7 +1928,7 @@
           "id": "energy",
           "order": 3,
           "title": "Live Energy Monitoring",
-          "status": "queued",
+          "status": "in_progress",
           "cloud_status": "not_deployed",
           "pattern": "Stateful event-time streaming",
           "repo_url": null,
@@ -1982,7 +1982,7 @@
       "source": {
         "name": "Azure portfolio delivery record",
         "provider": "Published repositories and approved project backlog",
-        "period": "As of 2026-11-04",
+        "period": "As of 2026-11-09",
         "tables": [
           {
             "name": "Urban Mobility Lakehouse",
@@ -1994,18 +1994,18 @@
           }
         ],
         "caveats": [
-          "Published locally is distinct from cloud validated. Queued projects have no implemented dashboard or repository yet."
+          "Published projects have local validation evidence. Cloud deployment remains pending."
         ],
         "metricDefinitions": [
           {
             "label": "Local tests",
-            "definition": "42 retail tests plus 43 mobility tests; a count of test cases, not a coverage percentage or cloud validation."
+            "definition": "Sum of the observed local test counts in the published project records."
           }
         ],
         "evidenceFlow": [
           {
             "title": "Delivery snapshot",
-            "detail": "The five-project backlog is captured in scripts/build_dashboard_data.py. Only the two published implementations contribute test counts."
+            "detail": "The source-controlled roadmap and pinned publication receipts determine project status. Only published implementations contribute local test counts."
           }
         ]
       }
@@ -2085,7 +2085,7 @@
         "id": "energy",
         "order": 3,
         "title": "Live Energy Monitoring",
-        "status": "queued",
+        "status": "in_progress",
         "cloud_status": "not_deployed",
         "pattern": "Stateful event-time streaming",
         "repo_url": null,

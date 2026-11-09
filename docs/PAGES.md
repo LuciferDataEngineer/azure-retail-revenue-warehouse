@@ -25,7 +25,7 @@ The data is a reviewed snapshot of the projects' published evidence, not a conti
 
 ## Deployment behavior
 
-[The Pages workflow](../.github/workflows/pages.yml) builds on relevant pushes to `main`, pull requests and manual dispatch. Relevant paths are `site/**`, the dashboard data-builder script and the workflow itself. The build checks that the display snapshot matches the reviewed aggregate bundle. A successful build on `main` uploads and deploys the Pages artifact. Pull requests build without deployment. There is no recurring refresh schedule.
+[The Pages workflow](../.github/workflows/pages.yml) builds on relevant pushes to `main`, pull requests and manual dispatch. The workflow watches site files, publication and snapshot scripts, registry tests and workflow changes. The build checks that the display snapshot matches the reviewed aggregate bundle. A successful build on `main` uploads and deploys the Pages artifact. Pull requests build without deployment. The daily portfolio automation registers remaining projects after GitHub publication. Each resulting push triggers this workflow. See [the release handoff](DASHBOARD_RELEASES.md).
 
 The build job has read permissions. The separate deployment job has `pages: write` and `id-token: write`, uses the `github-pages` environment and receives a short-lived GitHub identity token. No personal access token, Azure credential or repository secret is required by this workflow. Its artifact path is limited to `site/dist`.
 

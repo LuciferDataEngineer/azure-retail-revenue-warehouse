@@ -1,6 +1,6 @@
 # Dashboard data and reproducibility
 
-The GitHub Pages dashboard is a **reviewed snapshot as of 4 November 2026**, using aggregate evidence from the two published Azure-series implementations. It is not a live business feed or a deployed Azure monitor. Three further projects are explicitly queued. The dashboard never fetches credentials, databases, raw customer records or individual taxi records in a visitor's browser.
+The GitHub Pages dashboard is a dated snapshot of historical analyses and publication evidence. The original retail and mobility inputs were reviewed on 4 November 2026. The portfolio date advances when an implementation begins or a reviewed release is registered. It is not a live business feed or a deployed Azure monitor. Project status and published GitHub evidence follow [the release registry](DASHBOARD_RELEASES.md). The dashboard never fetches credentials, databases, raw customer records or individual taxi records in a visitor's browser.
 
 ## Build the snapshot
 
@@ -32,7 +32,7 @@ To refresh to a newly validated source version, review the new source evidence, 
 | [Retail](https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/tree/06c9566611b3ff7c1dfd41c4b5abf21033db4499) | `06c9566611b3ff7c1dfd41c4b5abf21033db4499` | 42 | One historical UK retailer, 1 December 2010–9 December 2011 |
 | [Mobility](https://github.com/LuciferDataEngineer/azure-urban-mobility-lakehouse/tree/ce32b70f83d6e8593cc2e768ae5ff95b28888a7b) | `ce32b70f83d6e8593cc2e768ae5ff95b28888a7b` | 43 | NYC yellow-taxi source months January–March 2024 |
 
-The six pinned inputs are each project's `report`, `sql-results` and `live-validation` JSON files. Their exact URLs, commits, byte counts and digests travel with the output under `provenance.inputs`. Project validation, README, source attribution and CI evidence links are also included. Test counts and roadmap status are a dated editorial snapshot from the existing validation documents and portfolio backlog, not a live GitHub query.
+The six pinned inputs are each project's `report`, `sql-results` and `live-validation` JSON files. Their exact URLs, commits, byte counts and digests travel with the output under `provenance.inputs`. Project validation, README, source attribution and CI evidence links are also included. The first two test counts come from the original validation documents. Later publications contribute observed test counts and metrics through pinned release receipts. The Pages build checks every receipt against the public commit before deployment.
 
 ## Meaning and interaction boundaries
 

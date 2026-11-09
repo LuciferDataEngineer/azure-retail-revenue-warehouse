@@ -8,6 +8,7 @@ reads the same files from the portfolio directory and verifies the same hashes.
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import time
@@ -15,6 +16,8 @@ import urllib.request
 from collections import defaultdict
 from decimal import Decimal
 from pathlib import Path
+
+from dashboard_releases import PORTFOLIO, apply_publications, verify_registered_publications
 
 OWNER = "LuciferDataEngineer"
 SNAPSHOT_DATE = "2026-11-04"
@@ -94,7 +97,7 @@ def links(project_id: str) -> dict:
             "azure_url": f"{base}/docs/AZURE.md", "commit": project["commit"]}
 
 
-def build(inputs: dict, provenance: list[dict]) -> dict:
+def build(inputs: dict, provenance: list[dict], registry_root: Path = PORTFOLIO) -> dict:
     rr, rs, rv = (inputs["retail"][key] for key in ("report", "sql-results", "live-validation"))
     mr, ms, mv = (inputs["mobility"][key] for key in ("report", "sql-results", "live-validation"))
     retail_monthly = [{
@@ -241,11 +244,12 @@ def build(inputs: dict, provenance: list[dict]) -> dict:
                        "inputs": provenance, "cloud_boundary": "Both implementations passed local checks. Azure deployment, security, performance and recovery have not been validated.",
                        "roadmap_as_of": SNAPSHOT_DATE},
     }
-    validate(data)
+    apply_publications(data, registry_root)
+    validate(data, registry_root)
     return data
 
 
-def validate(data: dict) -> None:
+def validate(data: dict, registry_root: Path = PORTFOLIO) -> None:
     require(data["schema_version"] == "portfolio-dashboard-v1", "Unknown dashboard schema")
     r, m = data["retail"], data["mobility"]
     for project in [r, m]:
@@ -267,7 +271,7 @@ def validate(data: dict) -> None:
         require(row["ordinary_records"] + row["negative_adjustment_rows"] == row["accepted_rows"], "Mobility adjustment conservation failed")
         require(Decimal(row["ordinary_charges_usd"]) + Decimal(row["adjustment_charges_usd"]) == Decimal(row["signed_charges_usd"]), "Mobility signed-money mismatch")
     require(sum(project.get("tests_passed") or 0 for project in data["portfolio"]["projects"]) == data["portfolio"]["tests_passed"], "Test count mismatch")
-    require(sum(project["status"] == "published_local" for project in data["portfolio"]["projects"]) == 2, "Publication status mismatch")
+    require(apply_publications(copy.deepcopy(data), registry_root) == data, "Dashboard differs from its publication registry")
 
 
 def main() -> None:
@@ -276,13 +280,21 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=ROOT / "site/data/dashboard.json")
     parser.add_argument("--check", action="store_true", help="Rebuild and compare to the existing output, without writing")
     parser.add_argument("--validate-only", action="store_true", help="Offline conservation and scope checks on the committed bundle")
+    parser.add_argument("--apply-releases", action="store_true", help="Refresh the roadmap from checked-in receipts using existing aggregate data")
+    parser.add_argument("--verify-receipts", action="store_true", help="Compare each registered release to its public commit and validation evidence")
     args = parser.parse_args()
+    if args.verify_receipts:
+        verify_registered_publications()
     if args.validate_only:
         validate(json.loads(args.output.read_text()))
         print("Dashboard bundle conservation, signed money and scope checks passed (offline).")
         return
-    inputs, provenance = read_inputs(args.local_root)
-    data = build(inputs, provenance)
+    if args.apply_releases:
+        data = apply_publications(json.loads(args.output.read_text()))
+        validate(data)
+    else:
+        inputs, provenance = read_inputs(args.local_root)
+        data = build(inputs, provenance)
     rendered = json.dumps(data, indent=2, ensure_ascii=False) + "\n"
     if args.check:
         require(args.output.read_text() == rendered, "Dashboard bundle differs from pinned evidence")
