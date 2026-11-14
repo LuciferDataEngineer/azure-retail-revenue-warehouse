@@ -2,7 +2,7 @@
   "id": "dashboard:ca724e9d-2f85-4d14-a337-61970a18ffde",
   "surface": "dashboard",
   "title": "Data engineering portfolio",
-  "generatedAt": "2026-11-09T09:47:49.454468+00:00",
+  "generatedAt": "2026-11-14T22:00:49.236908+00:00",
   "buildStatus": "complete",
   "filters": [],
   "queries": {
@@ -1928,11 +1928,11 @@
           "id": "energy",
           "order": 3,
           "title": "Live Energy Monitoring",
-          "status": "in_progress",
+          "status": "published_local",
           "cloud_status": "not_deployed",
           "pattern": "Stateful event-time streaming",
-          "repo_url": null,
-          "tests_passed": null,
+          "repo_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring",
+          "tests_passed": 30,
           "azure_target": [
             "Event Hubs",
             "Stream Analytics",
@@ -1940,7 +1940,42 @@
             "ADLS Gen2",
             "Azure Monitor"
           ],
-          "summary": "Planned: replay historical household measurements with explicitly synthetic delays and spikes."
+          "summary": "Replays minute-level household power into five-minute energy windows and verifies totals after a database restart.",
+          "published_on": "2026-11-15",
+          "commit": "180a4b08bd4b5c4944af318259bdfc74eab8fc6f",
+          "evidence_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring/blob/180a4b08bd4b5c4944af318259bdfc74eab8fc6f/docs/VALIDATION.md",
+          "release_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring/blob/180a4b08bd4b5c4944af318259bdfc74eab8fc6f/examples/dashboard-release.json",
+          "release_sha256": "a329c688a5c21f4071ab47c9f5ff59048c2efe1059fb20ff088bb716b7d434ca",
+          "evidence_sha256": "ee95cace18264ac515f102989e64b599a6c8ade769be08d6c23d778b4ec964c0",
+          "coverage": "One household, 1\u20137 January 2007. Throughput comes from a separate 20-minute local synthetic trial.",
+          "stack": [
+            "Python",
+            "SQLite",
+            "SQL",
+            "Apache Avro"
+          ],
+          "metrics": [
+            {
+              "label": "Measured minutes",
+              "value": 10080,
+              "unit": "minutes"
+            },
+            {
+              "label": "Reconciled windows",
+              "value": 2016,
+              "unit": "five-minute windows"
+            },
+            {
+              "label": "Measured energy",
+              "value": 249.351133,
+              "unit": "kWh"
+            },
+            {
+              "label": "Local throughput (rounded)",
+              "value": 100.0,
+              "unit": "synthetic events/s"
+            }
+          ]
         },
         {
           "id": "orders",
@@ -1982,7 +2017,7 @@
       "source": {
         "name": "Azure portfolio delivery record",
         "provider": "Published repositories and approved project backlog",
-        "period": "As of 2026-11-09",
+        "period": "As of 2026-11-15",
         "tables": [
           {
             "name": "Urban Mobility Lakehouse",
@@ -1991,6 +2026,10 @@
           {
             "name": "Retail Revenue Warehouse",
             "href": "https://github.com/LuciferDataEngineer/azure-retail-revenue-warehouse/blob/06c9566611b3ff7c1dfd41c4b5abf21033db4499/docs/VALIDATION.md"
+          },
+          {
+            "name": "Live Energy Monitoring",
+            "href": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring/blob/180a4b08bd4b5c4944af318259bdfc74eab8fc6f/docs/VALIDATION.md"
           }
         ],
         "caveats": [
@@ -2012,10 +2051,10 @@
     }
   },
   "portfolioSummary": {
-    "published_local": 2,
+    "published_local": 3,
     "cloud_deployed": 0,
     "total_planned": 5,
-    "tests_passed": 85,
+    "tests_passed": 115,
     "source_rows": 10096687,
     "projects": [
       {
@@ -2085,11 +2124,11 @@
         "id": "energy",
         "order": 3,
         "title": "Live Energy Monitoring",
-        "status": "in_progress",
+        "status": "published_local",
         "cloud_status": "not_deployed",
         "pattern": "Stateful event-time streaming",
-        "repo_url": null,
-        "tests_passed": null,
+        "repo_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring",
+        "tests_passed": 30,
         "azure_target": [
           "Event Hubs",
           "Stream Analytics",
@@ -2097,7 +2136,42 @@
           "ADLS Gen2",
           "Azure Monitor"
         ],
-        "summary": "Planned: replay historical household measurements with explicitly synthetic delays and spikes."
+        "summary": "Replays minute-level household power into five-minute energy windows and verifies totals after a database restart.",
+        "published_on": "2026-11-15",
+        "commit": "180a4b08bd4b5c4944af318259bdfc74eab8fc6f",
+        "evidence_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring/blob/180a4b08bd4b5c4944af318259bdfc74eab8fc6f/docs/VALIDATION.md",
+        "release_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring/blob/180a4b08bd4b5c4944af318259bdfc74eab8fc6f/examples/dashboard-release.json",
+        "release_sha256": "a329c688a5c21f4071ab47c9f5ff59048c2efe1059fb20ff088bb716b7d434ca",
+        "evidence_sha256": "ee95cace18264ac515f102989e64b599a6c8ade769be08d6c23d778b4ec964c0",
+        "coverage": "One household, 1\u20137 January 2007. Throughput comes from a separate 20-minute local synthetic trial.",
+        "stack": [
+          "Python",
+          "SQLite",
+          "SQL",
+          "Apache Avro"
+        ],
+        "metrics": [
+          {
+            "label": "Measured minutes",
+            "value": 10080,
+            "unit": "minutes"
+          },
+          {
+            "label": "Reconciled windows",
+            "value": 2016,
+            "unit": "five-minute windows"
+          },
+          {
+            "label": "Measured energy",
+            "value": 249.351133,
+            "unit": "kWh"
+          },
+          {
+            "label": "Local throughput (rounded)",
+            "value": 100.0,
+            "unit": "synthetic events/s"
+          }
+        ]
       },
       {
         "id": "orders",

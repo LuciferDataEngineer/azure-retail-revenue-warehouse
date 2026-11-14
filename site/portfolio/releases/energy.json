@@ -1,0 +1,43 @@
+{
+  "commit": "180a4b08bd4b5c4944af318259bdfc74eab8fc6f",
+  "published_on": "2026-11-15",
+  "evidence_sha256": "ee95cace18264ac515f102989e64b599a6c8ade769be08d6c23d778b4ec964c0",
+  "release_sha256": "a329c688a5c21f4071ab47c9f5ff59048c2efe1059fb20ff088bb716b7d434ca",
+  "release": {
+    "schema_version": 1,
+    "project_id": "energy",
+    "coverage": "One household, 1–7 January 2007. Throughput comes from a separate 20-minute local synthetic trial.",
+    "summary": "Replays minute-level household power into five-minute energy windows and verifies totals after a database restart.",
+    "stack": [
+      "Python",
+      "SQLite",
+      "SQL",
+      "Apache Avro"
+    ],
+    "tests_passed": 30,
+    "metrics": [
+      {
+        "label": "Measured minutes",
+        "value": 10080,
+        "unit": "minutes"
+      },
+      {
+        "label": "Reconciled windows",
+        "value": 2016,
+        "unit": "five-minute windows"
+      },
+      {
+        "label": "Measured energy",
+        "value": 249.351133,
+        "unit": "kWh"
+      },
+      {
+        "label": "Local throughput (rounded)",
+        "value": 100.0,
+        "unit": "synthetic events/s"
+      }
+    ],
+    "evidence_path": "docs/VALIDATION.md",
+    "cloud_status": "not_deployed"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "schema_version": "portfolio-dashboard-v1",
-  "snapshot_date": "2026-11-09",
+  "snapshot_date": "2026-11-15",
   "owner": "LuciferDataEngineer",
   "is_live_feed": false,
   "portfolio": {
-    "published_local": 2,
+    "published_local": 3,
     "cloud_deployed": 0,
     "total_planned": 5,
-    "tests_passed": 85,
+    "tests_passed": 115,
     "source_rows": 10096687,
     "projects": [
       {
@@ -77,11 +77,11 @@
         "id": "energy",
         "order": 3,
         "title": "Live Energy Monitoring",
-        "status": "in_progress",
+        "status": "published_local",
         "cloud_status": "not_deployed",
         "pattern": "Stateful event-time streaming",
-        "repo_url": null,
-        "tests_passed": null,
+        "repo_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring",
+        "tests_passed": 30,
         "azure_target": [
           "Event Hubs",
           "Stream Analytics",
@@ -89,7 +89,42 @@
           "ADLS Gen2",
           "Azure Monitor"
         ],
-        "summary": "Planned: replay historical household measurements with explicitly synthetic delays and spikes."
+        "summary": "Replays minute-level household power into five-minute energy windows and verifies totals after a database restart.",
+        "published_on": "2026-11-15",
+        "commit": "180a4b08bd4b5c4944af318259bdfc74eab8fc6f",
+        "evidence_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring/blob/180a4b08bd4b5c4944af318259bdfc74eab8fc6f/docs/VALIDATION.md",
+        "release_url": "https://github.com/LuciferDataEngineer/azure-live-energy-monitoring/blob/180a4b08bd4b5c4944af318259bdfc74eab8fc6f/examples/dashboard-release.json",
+        "release_sha256": "a329c688a5c21f4071ab47c9f5ff59048c2efe1059fb20ff088bb716b7d434ca",
+        "evidence_sha256": "ee95cace18264ac515f102989e64b599a6c8ade769be08d6c23d778b4ec964c0",
+        "coverage": "One household, 1–7 January 2007. Throughput comes from a separate 20-minute local synthetic trial.",
+        "stack": [
+          "Python",
+          "SQLite",
+          "SQL",
+          "Apache Avro"
+        ],
+        "metrics": [
+          {
+            "label": "Measured minutes",
+            "value": 10080,
+            "unit": "minutes"
+          },
+          {
+            "label": "Reconciled windows",
+            "value": 2016,
+            "unit": "five-minute windows"
+          },
+          {
+            "label": "Measured energy",
+            "value": 249.351133,
+            "unit": "kWh"
+          },
+          {
+            "label": "Local throughput (rounded)",
+            "value": 100.0,
+            "unit": "synthetic events/s"
+          }
+        ]
       },
       {
         "id": "orders",
@@ -1083,6 +1118,6 @@
       }
     ],
     "cloud_boundary": "The published implementations have local validation evidence. Azure deployment and cloud validation remain pending.",
-    "roadmap_as_of": "2026-11-09"
+    "roadmap_as_of": "2026-11-15"
   }
 }
