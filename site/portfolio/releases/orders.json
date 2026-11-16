@@ -1,0 +1,44 @@
+{
+  "commit": "d551a8c50a52cca9f98b7bfe512b3f2d9c6ce12f",
+  "published_on": "2026-11-17",
+  "evidence_sha256": "a0c6747d171eeffe50147d564944573190e5248ae8c15f8d17a36d3f904320a3",
+  "release_sha256": "f04e092fbf65ddac3199c4582c773d7cc0d5140af2b7c6b6b402af7321e6fe8a",
+  "release": {
+    "schema_version": 1,
+    "project_id": "orders",
+    "coverage": "Microsoft Northwind sample: 830 base orders plus 170 synthetic amendments. Outage, duplicate and repair deliveries are simulated.",
+    "summary": "Routes versioned order messages to independent audit and fulfillment consumers. Durable receipts preserve effects across retries and restart.",
+    "stack": [
+      "Python",
+      "SQLite",
+      "SQL",
+      "Azure Storage SDK",
+      "Azurite"
+    ],
+    "tests_passed": 32,
+    "cloud_status": "not_deployed",
+    "evidence_path": "docs/VALIDATION.md",
+    "metrics": [
+      {
+        "label": "Logical submissions",
+        "value": 1000,
+        "unit": "events"
+      },
+      {
+        "label": "Audit during fulfillment outage",
+        "value": 1000,
+        "unit": "events"
+      },
+      {
+        "label": "Reconciled latest orders",
+        "value": 830,
+        "unit": "orders"
+      },
+      {
+        "label": "Extra deliveries suppressed",
+        "value": 10,
+        "unit": "per consumer"
+      }
+    ]
+  }
+}

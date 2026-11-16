@@ -1,13 +1,13 @@
 {
   "schema_version": "portfolio-dashboard-v1",
-  "snapshot_date": "2026-11-15",
+  "snapshot_date": "2026-11-17",
   "owner": "LuciferDataEngineer",
   "is_live_feed": false,
   "portfolio": {
-    "published_local": 3,
+    "published_local": 4,
     "cloud_deployed": 0,
     "total_planned": 5,
-    "tests_passed": 115,
+    "tests_passed": 147,
     "source_rows": 10096687,
     "projects": [
       {
@@ -130,11 +130,11 @@
         "id": "orders",
         "order": 4,
         "title": "Order Integration Middleware",
-        "status": "queued",
+        "status": "published_local",
         "cloud_status": "not_deployed",
         "pattern": "Event-driven messaging",
-        "repo_url": null,
-        "tests_passed": null,
+        "repo_url": "https://github.com/LuciferDataEngineer/azure-order-integration-middleware",
+        "tests_passed": 32,
         "azure_target": [
           "Event Grid",
           "Azure Functions",
@@ -142,7 +142,43 @@
           "Logic Apps",
           "Table Storage"
         ],
-        "summary": "Planned: version-aware fulfillment and audit consumers with controlled dead-letter replay."
+        "summary": "Routes versioned order messages to independent audit and fulfillment consumers. Durable receipts preserve effects across retries and restart.",
+        "published_on": "2026-11-17",
+        "commit": "d551a8c50a52cca9f98b7bfe512b3f2d9c6ce12f",
+        "evidence_url": "https://github.com/LuciferDataEngineer/azure-order-integration-middleware/blob/d551a8c50a52cca9f98b7bfe512b3f2d9c6ce12f/docs/VALIDATION.md",
+        "release_url": "https://github.com/LuciferDataEngineer/azure-order-integration-middleware/blob/d551a8c50a52cca9f98b7bfe512b3f2d9c6ce12f/examples/dashboard-release.json",
+        "release_sha256": "f04e092fbf65ddac3199c4582c773d7cc0d5140af2b7c6b6b402af7321e6fe8a",
+        "evidence_sha256": "a0c6747d171eeffe50147d564944573190e5248ae8c15f8d17a36d3f904320a3",
+        "coverage": "Microsoft Northwind sample: 830 base orders plus 170 synthetic amendments. Outage, duplicate and repair deliveries are simulated.",
+        "stack": [
+          "Python",
+          "SQLite",
+          "SQL",
+          "Azure Storage SDK",
+          "Azurite"
+        ],
+        "metrics": [
+          {
+            "label": "Logical submissions",
+            "value": 1000,
+            "unit": "events"
+          },
+          {
+            "label": "Audit during fulfillment outage",
+            "value": 1000,
+            "unit": "events"
+          },
+          {
+            "label": "Reconciled latest orders",
+            "value": 830,
+            "unit": "orders"
+          },
+          {
+            "label": "Extra deliveries suppressed",
+            "value": 10,
+            "unit": "per consumer"
+          }
+        ]
       },
       {
         "id": "inventory",
@@ -1118,6 +1154,6 @@
       }
     ],
     "cloud_boundary": "The published implementations have local validation evidence. Azure deployment and cloud validation remain pending.",
-    "roadmap_as_of": "2026-11-15"
+    "roadmap_as_of": "2026-11-17"
   }
 }
