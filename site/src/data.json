@@ -2,7 +2,7 @@
   "id": "dashboard:ca724e9d-2f85-4d14-a337-61970a18ffde",
   "surface": "dashboard",
   "title": "Data engineering portfolio",
-  "generatedAt": "2026-11-16T23:22:50.492695+00:00",
+  "generatedAt": "2026-11-17T22:07:58.798807+00:00",
   "buildStatus": "complete",
   "filters": [],
   "queries": {
@@ -2035,11 +2035,11 @@
           "id": "inventory",
           "order": 5,
           "title": "Inventory Synchronization",
-          "status": "queued",
+          "status": "published_local",
           "cloud_status": "not_deployed",
           "pattern": "Change-feed current-state projection",
-          "repo_url": null,
-          "tests_passed": null,
+          "repo_url": "https://github.com/LuciferDataEngineer/azure-inventory-synchronization",
+          "tests_passed": 36,
           "azure_target": [
             "Cosmos DB",
             "Azure Functions",
@@ -2047,13 +2047,47 @@
             "App Service",
             "Application Insights"
           ],
-          "summary": "Planned: monotonic stock projections, soft deletes and outage reconciliation without full reloads."
+          "summary": "Projects versioned stock changes into SQL, retains soft deletes, and reconciles every product after a consumer restart.",
+          "published_on": "2026-11-18",
+          "commit": "c113e2733ef02f8f1ab7e9f6887e2133fa10af1b",
+          "evidence_url": "https://github.com/LuciferDataEngineer/azure-inventory-synchronization/blob/c113e2733ef02f8f1ab7e9f6887e2133fa10af1b/docs/VALIDATION.md",
+          "release_url": "https://github.com/LuciferDataEngineer/azure-inventory-synchronization/blob/c113e2733ef02f8f1ab7e9f6887e2133fa10af1b/examples/dashboard-release.json",
+          "release_sha256": "702b979f29e5a5a2f26c645aecb43810faffcd84f5e6528aea679c5f844fc8a6",
+          "evidence_sha256": "de9c2160d8a53d87770aab403563d7aa027a8845493064d056df9433ecfbf98d",
+          "coverage": "100 catalog samples and 900 synthetic variants across three tenants. All 10,000 mutations and soft deletes are synthetic.",
+          "stack": [
+            "Python",
+            "SQLite",
+            "SQL"
+          ],
+          "metrics": [
+            {
+              "label": "Products reconciled",
+              "value": 1000,
+              "unit": "products"
+            },
+            {
+              "label": "Synthetic mutations",
+              "value": 10000,
+              "unit": "mutations"
+            },
+            {
+              "label": "Retained soft deletes",
+              "value": 67,
+              "unit": "products"
+            },
+            {
+              "label": "Final state mismatches",
+              "value": 0,
+              "unit": "products"
+            }
+          ]
         }
       ],
       "source": {
         "name": "Azure portfolio delivery record",
         "provider": "Published repositories and approved project backlog",
-        "period": "As of 2026-11-17",
+        "period": "As of 2026-11-18",
         "tables": [
           {
             "name": "Urban Mobility Lakehouse",
@@ -2070,6 +2104,10 @@
           {
             "name": "Order Integration Middleware",
             "href": "https://github.com/LuciferDataEngineer/azure-order-integration-middleware/blob/d551a8c50a52cca9f98b7bfe512b3f2d9c6ce12f/docs/VALIDATION.md"
+          },
+          {
+            "name": "Inventory Synchronization",
+            "href": "https://github.com/LuciferDataEngineer/azure-inventory-synchronization/blob/c113e2733ef02f8f1ab7e9f6887e2133fa10af1b/docs/VALIDATION.md"
           }
         ],
         "caveats": [
@@ -2091,10 +2129,10 @@
     }
   },
   "portfolioSummary": {
-    "published_local": 4,
+    "published_local": 5,
     "cloud_deployed": 0,
     "total_planned": 5,
-    "tests_passed": 147,
+    "tests_passed": 183,
     "source_rows": 10096687,
     "projects": [
       {
@@ -2271,11 +2309,11 @@
         "id": "inventory",
         "order": 5,
         "title": "Inventory Synchronization",
-        "status": "queued",
+        "status": "published_local",
         "cloud_status": "not_deployed",
         "pattern": "Change-feed current-state projection",
-        "repo_url": null,
-        "tests_passed": null,
+        "repo_url": "https://github.com/LuciferDataEngineer/azure-inventory-synchronization",
+        "tests_passed": 36,
         "azure_target": [
           "Cosmos DB",
           "Azure Functions",
@@ -2283,7 +2321,41 @@
           "App Service",
           "Application Insights"
         ],
-        "summary": "Planned: monotonic stock projections, soft deletes and outage reconciliation without full reloads."
+        "summary": "Projects versioned stock changes into SQL, retains soft deletes, and reconciles every product after a consumer restart.",
+        "published_on": "2026-11-18",
+        "commit": "c113e2733ef02f8f1ab7e9f6887e2133fa10af1b",
+        "evidence_url": "https://github.com/LuciferDataEngineer/azure-inventory-synchronization/blob/c113e2733ef02f8f1ab7e9f6887e2133fa10af1b/docs/VALIDATION.md",
+        "release_url": "https://github.com/LuciferDataEngineer/azure-inventory-synchronization/blob/c113e2733ef02f8f1ab7e9f6887e2133fa10af1b/examples/dashboard-release.json",
+        "release_sha256": "702b979f29e5a5a2f26c645aecb43810faffcd84f5e6528aea679c5f844fc8a6",
+        "evidence_sha256": "de9c2160d8a53d87770aab403563d7aa027a8845493064d056df9433ecfbf98d",
+        "coverage": "100 catalog samples and 900 synthetic variants across three tenants. All 10,000 mutations and soft deletes are synthetic.",
+        "stack": [
+          "Python",
+          "SQLite",
+          "SQL"
+        ],
+        "metrics": [
+          {
+            "label": "Products reconciled",
+            "value": 1000,
+            "unit": "products"
+          },
+          {
+            "label": "Synthetic mutations",
+            "value": 10000,
+            "unit": "mutations"
+          },
+          {
+            "label": "Retained soft deletes",
+            "value": 67,
+            "unit": "products"
+          },
+          {
+            "label": "Final state mismatches",
+            "value": 0,
+            "unit": "products"
+          }
+        ]
       }
     ]
   },
